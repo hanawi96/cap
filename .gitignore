@@ -1,0 +1,32 @@
+# Build outputs
+build/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.log
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Intermediate files
+*.iobj
+*.ipdb
+*.idb
+
+# Backup files
+*.bak
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Test screenshots (optional)
+test_screenshots/

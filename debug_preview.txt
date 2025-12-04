@@ -1,0 +1,188 @@
+=== Preview Window ===
+Bitmap size: 136x50
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1689x1091
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1699x1209
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 65x2070
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 2483x1153
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1582x792
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1562x996
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1462x824
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 76x2076
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 881x946
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1586x1335
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1216x830
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1019x831
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1524x871
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1305x731
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1358x715
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 2880x1546
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 2880x1546
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1447x994
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1253x998
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1426x985
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1320x842
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 240x257
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 188x163
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 267x252
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1750x809
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1075x543
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1332x671
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1178x660
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 79x2076
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 2880x1546
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 822x553
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1246x679
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 76x2074
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 3840x2160
+Filename: C
+
+=== Preview Window ===
+Bitmap size: 1148x281
+Filename: C
+

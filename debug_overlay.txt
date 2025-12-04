@@ -1,0 +1,110 @@
+=== Window Created ===
+Virtual screen: L=0 T=0 R=3840 B=2160
+Window offset saved: (0,0)
+
+=== Overlay Selection ===
+Client: (0,0) -> (65,2070)
+Saved offset: (0,0)
+Screen: (0,0) -> (65,2070)
+Rect: L=0 T=0 R=65 B=2070
+Size: 65x2070
+
+=== Window Created ===
+Virtual screen: L=0 T=0 R=3840 B=2160
+Window offset saved: (0,0)
+
+=== Overlay Selection ===
+Client: (659,113) -> (3142,1266)
+Saved offset: (0,0)
+Screen: (659,113) -> (3142,1266)
+Rect: L=659 T=113 R=3142 B=1266
+Size: 2483x1153
+
+=== Window Created ===
+Virtual screen: L=0 T=0 R=3840 B=2160
+Window offset saved: (0,0)
+
+=== Overlay Selection ===
+Client: (620,188) -> (2202,980)
+Saved offset: (0,0)
+Screen: (620,188) -> (2202,980)
+Rect: L=620 T=188 R=2202 B=980
+Size: 1582x792
+
+=== Window Created ===
+Virtual screen: L=0 T=0 R=3840 B=2160
+Window offset saved: (0,0)
+
+=== Overlay Selection ===
+Client: (792,256) -> (2354,1252)
+Saved offset: (0,0)
+Screen: (792,256) -> (2354,1252)
+Rect: L=792 T=256 R=2354 B=1252
+Size: 1562x996
+
+=== Window Created ===
+Virtual screen: L=0 T=0 R=3840 B=2160
+Window offset saved: (0,0)
+
+=== Overlay Selection ===
+Client: (596,248) -> (2058,1072)
+Saved offset: (0,0)
+Screen: (596,248) -> (2058,1072)
+Rect: L=596 T=248 R=2058 B=1072
+Size: 1462x824
+
+=== Window Created ===
+Virtual screen: L=0 T=0 R=3840 B=2160
+Window offset saved: (0,0)
+
+=== Overlay Selection ===
+Client: (0,0) -> (76,2076)
+Saved offset: (0,0)
+Screen: (0,0) -> (76,2076)
+Rect: L=0 T=0 R=76 B=2076
+Size: 76x2076
+
+=== Window Created ===
+Virtual screen: L=0 T=0 R=3840 B=2160
+Window offset saved: (0,0)
+
+=== Overlay Selection ===
+Client: (958,251) -> (1839,1197)
+Saved offset: (0,0)
+Screen: (958,251) -> (1839,1197)
+Rect: L=958 T=251 R=1839 B=1197
+Size: 881x946
+
+=== Window Created ===
+Virtual screen: L=0 T=0 R=3840 B=2160
+Window offset saved: (0,0)
+
+=== Overlay Selection ===
+Client: (306,71) -> (1892,1406)
+Saved offset: (0,0)
+Screen: (306,71) -> (1892,1406)
+Rect: L=306 T=71 R=1892 B=1406
+Size: 1586x1335
+
+=== Window Created ===
+Virtual screen: L=0 T=0 R=3840 B=2160
+Window offset saved: (0,0)
+
+=== Overlay Selection ===
+Client: (847,338) -> (2063,1168)
+Saved offset: (0,0)
+Screen: (847,338) -> (2063,1168)
+Rect: L=847 T=338 R=2063 B=1168
+Size: 1216x830
+
+=== Window Created ===
+Virtual screen: L=0 T=0 R=3840 B=2160
+Window offset saved: (0,0)
+
+=== Overlay Selection ===
+Client: (975,324) -> (1994,1155)
+Saved offset: (0,0)
+Screen: (975,324) -> (1994,1155)
+Rect: L=975 T=324 R=1994 B=1155
+Size: 1019x831
+

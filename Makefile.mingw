@@ -1,0 +1,58 @@
+# Makefile for MinGW-w64 (GCC)
+# Usage: mingw32-make -f Makefile.mingw
+
+CXX = g++
+WINDRES = windres
+TARGET = ScreenCapture.exe
+OUTDIR = build/Release
+OBJDIR = build/Release/obj
+
+# Source files
+SOURCES = src/main.cpp \
+          src/capture.cpp \
+          src/hotkeys.cpp \
+          src/overlay.cpp \
+          src/tray.cpp \
+          src/utils.cpp \
+          src/preview.cpp
+
+# Object files
+OBJECTS = $(OBJDIR)/main.o \
+          $(OBJDIR)/capture.o \
+          $(OBJDIR)/hotkeys.o \
+          $(OBJDIR)/overlay.o \
+          $(OBJDIR)/tray.o \
+          $(OBJDIR)/utils.o \
+          $(OBJDIR)/preview.o
+
+# Compiler flags
+CXXFLAGS = -std=c++17 -O2 -Wall -I. -DUNICODE -D_UNICODE -DNDEBUG
+LDFLAGS = -mwindows -static -static-libgcc -static-libstdc++
+LIBS = -lgdi32 -ldwmapi -lshell32 -lole32 -luuid -lwinmm
+
+# Targets
+.PHONY: all clean dirs
+
+all: dirs $(OUTDIR)/$(TARGET)
+
+dirs:
+	@if not exist "$(OUTDIR)" mkdir "$(OUTDIR)"
+	@if not exist "$(OBJDIR)" mkdir "$(OBJDIR)"
+
+$(OUTDIR)/$(TARGET): $(OBJECTS)
+	@echo Linking $(TARGET)...
+	$(CXX) $(LDFLAGS) -o $@ $^ $(LIBS)
+	@echo Build complete: $(OUTDIR)/$(TARGET)
+
+$(OBJDIR)/%.o: src/%.cpp
+	@echo Compiling $<...
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+clean:
+	@echo Cleaning...
+	@if exist "build" rmdir /s /q build
+	@echo Clean complete.
+
+run: all
+	@echo Running $(TARGET)...
+	@$(OUTDIR)\$(TARGET)
