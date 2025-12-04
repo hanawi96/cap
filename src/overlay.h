@@ -31,18 +31,27 @@ private:
     bool m_isSelecting;
     bool m_isComplete;
     
-    // Persistent backbuffer for flicker-free rendering
+    // Screenshot backbuffer (captured once at start)
+    HDC m_hdcScreenshot;
+    HBITMAP m_hbmScreenshot;
+    HBITMAP m_hbmOldScreenshot;
+    
+    // Drawing backbuffer (for current frame)
     HDC m_hdcBackbuffer;
     HBITMAP m_hbmBackbuffer;
     HBITMAP m_hbmOldBackbuffer;
     int m_backbufferWidth;
     int m_backbufferHeight;
     
-    // Cached GDI objects for ultra-fast rendering (no create/delete per frame)
-    HBRUSH m_hBrushBlack;
+    // Cached GDI objects
     HPEN m_hPenBorder;
+    HBRUSH m_hBrushDim;  // Semi-transparent overlay
     
-    // Frame rate limiting for smooth 120fps rendering
+    // Last drawn rectangle for selective redraw
+    RECT m_lastRect;
+    RECT m_prevRect;  // Previous rect before last update
+    
+    // Frame rate limiting
     DWORD m_lastPaintTime;
 };
 

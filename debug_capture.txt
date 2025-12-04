@@ -1,627 +1,325 @@
-[17:28:11.896] === CaptureRegion ===
-[17:28:11.897]   Rect: L=914 T=333 R=2340 B=1318
-[17:28:11.897]   Size: 1426x985
-[17:28:11.897] CaptureScreenArea: x=914, y=333, w=1426, h=985
-[17:28:11.897]   GetDC OK
-[17:28:11.897]   CreateCompatibleDC OK
-[17:28:11.897]   CreateDIBSection OK, pBits=000002851abc0000
-[17:28:11.931]   BitBlt result=1
-[17:28:11.931]   Returning hBitmap=000000005805163c
-[17:28:11.931] SaveCapture: hBitmap=000000005805163c, prefix=R
-[17:28:11.932]   Save directory: C
-[17:28:11.932]   Directory exists/created OK
-[17:28:11.932]   Filename: C
-[17:28:11.932]   Exe directory: D
-[17:28:11.932]   Trying sound: D
-[17:28:11.933]     Found! Playing...
-[17:28:11.934]     PlaySound result: 1
-[17:28:11.934]   Creating PreviewWindow...
-[17:28:11.934]   PreviewWindow created at 0000028517cee310
-[17:28:11.934]   Calling preview->Show()...
-[17:28:11.960]   preview->Show() returned
-[17:28:11.960]   Queueing async save...
-[17:28:11.961]   QueueUserWorkItem result: 1
-[17:28:11.961]   SaveCapture completed successfully
-[17:30:37.840] === CaptureFullScreen ===
-[17:30:37.840] CaptureScreenArea: x=0, y=0, w=3840, h=2160
-[17:30:37.840]   GetDC OK
-[17:30:37.840]   CreateCompatibleDC OK
-[17:30:37.840]   CreateDIBSection OK, pBits=0000022a37440000
-[17:30:37.981]   BitBlt result=1
-[17:30:37.981]   Returning hBitmap=fffffffff5051634
-[17:30:37.981] SaveCapture: hBitmap=fffffffff5051634, prefix=F
-[17:30:37.982]   Save directory: C
-[17:30:37.982]   Directory exists/created OK
-[17:30:37.982]   Filename: C
-[17:30:37.982]   Exe directory: D
-[17:30:37.982]   Trying sound: D
-[17:30:37.982]     Found! Playing...
-[17:30:37.984]     PlaySound result: 1
-[17:30:37.984]   Creating PreviewWindow...
-[17:30:37.984]   PreviewWindow created at 0000022a3424ed90
-[17:30:37.984]   Calling preview->Show()...
-[17:30:38.114]   preview->Show() returned
-[17:30:38.115]   Queueing async save...
-[17:30:38.115]   QueueUserWorkItem result: 1
-[17:30:38.115]   SaveCapture completed successfully
-[17:31:00.909] === CaptureRegion ===
-[17:31:00.909]   Rect: L=956 T=429 R=2276 B=1271
-[17:31:00.909]   Size: 1320x842
-[17:31:00.910] CaptureScreenArea: x=956, y=429, w=1320, h=842
-[17:31:00.910]   GetDC OK
-[17:31:00.910]   CreateCompatibleDC OK
-[17:31:00.910]   CreateDIBSection OK, pBits=0000022a37440000
-[17:31:00.937]   BitBlt result=1
-[17:31:00.938]   Returning hBitmap=ffffffffcd051573
-[17:31:00.938] SaveCapture: hBitmap=ffffffffcd051573, prefix=R
-[17:31:00.938]   Save directory: C
-[17:31:00.938]   Directory exists/created OK
-[17:31:00.938]   Filename: C
-[17:31:00.938]   Exe directory: D
-[17:31:00.938]   Trying sound: D
-[17:31:00.938]     Found! Playing...
-[17:31:00.939]     PlaySound result: 1
-[17:31:00.939]   Creating PreviewWindow...
-[17:31:00.939]   PreviewWindow created at 0000022a35c645c0
-[17:31:00.939]   Calling preview->Show()...
-[17:31:00.959]   preview->Show() returned
-[17:31:00.959]   Queueing async save...
-[17:31:00.960]   QueueUserWorkItem result: 1
-[17:31:00.960]   SaveCapture completed successfully
-[17:31:22.319] === CaptureRegion ===
-[17:31:22.320]   Rect: L=1068 T=471 R=1308 B=728
-[17:31:22.320]   Size: 240x257
-[17:31:22.320] CaptureScreenArea: x=1068, y=471, w=240, h=257
-[17:31:22.320]   GetDC OK
-[17:31:22.321]   CreateCompatibleDC OK
-[17:31:22.321]   CreateDIBSection OK, pBits=0000022a37440000
-[17:31:22.339]   BitBlt result=1
-[17:31:22.339]   Returning hBitmap=0000000065051626
-[17:31:22.339] SaveCapture: hBitmap=0000000065051626, prefix=R
-[17:31:22.339]   Save directory: C
-[17:31:22.339]   Directory exists/created OK
-[17:31:22.340]   Filename: C
-[17:31:22.340]   Exe directory: D
-[17:31:22.340]   Trying sound: D
-[17:31:22.340]     Found! Playing...
-[17:31:22.340]     PlaySound result: 1
-[17:31:22.340]   Creating PreviewWindow...
-[17:31:22.340]   PreviewWindow created at 0000022a35c64500
-[17:31:22.340]   Calling preview->Show()...
-[17:31:22.346]   preview->Show() returned
-[17:31:22.346]   Queueing async save...
-[17:31:22.346]   QueueUserWorkItem result: 1
-[17:31:22.346]   SaveCapture completed successfully
-[17:31:47.436] === CaptureRegion ===
-[17:31:47.436]   Rect: L=1070 T=500 R=1258 B=663
-[17:31:47.436]   Size: 188x163
-[17:31:47.437] CaptureScreenArea: x=1070, y=500, w=188, h=163
-[17:31:47.437]   GetDC OK
-[17:31:47.437]   CreateCompatibleDC OK
-[17:31:47.437]   CreateDIBSection OK, pBits=0000022a37440000
-[17:31:47.454]   BitBlt result=1
-[17:31:47.454]   Returning hBitmap=000000006a0514d1
-[17:31:47.455] SaveCapture: hBitmap=000000006a0514d1, prefix=R
-[17:31:47.455]   Save directory: C
-[17:31:47.455]   Directory exists/created OK
-[17:31:47.455]   Filename: C
-[17:31:47.455]   Exe directory: D
-[17:31:47.455]   Trying sound: D
-[17:31:47.455]     Found! Playing...
-[17:31:47.455]     PlaySound result: 1
-[17:31:47.456]   Creating PreviewWindow...
-[17:31:47.456]   PreviewWindow created at 0000022a35c64580
-[17:31:47.456]   Calling preview->Show()...
-[17:31:47.461]   preview->Show() returned
-[17:31:47.461]   Queueing async save...
-[17:31:47.461]   QueueUserWorkItem result: 1
-[17:31:47.461]   SaveCapture completed successfully
-[17:32:04.813] === CaptureRegion ===
-[17:32:04.813]   Rect: L=1078 T=488 R=1345 B=740
-[17:32:04.813]   Size: 267x252
-[17:32:04.813] CaptureScreenArea: x=1078, y=488, w=267, h=252
-[17:32:04.814]   GetDC OK
-[17:32:04.814]   CreateCompatibleDC OK
-[17:32:04.814]   CreateDIBSection OK, pBits=0000022a37440000
-[17:32:04.825]   BitBlt result=1
-[17:32:04.825]   Returning hBitmap=0000000035051628
-[17:32:04.825] SaveCapture: hBitmap=0000000035051628, prefix=R
-[17:32:04.825]   Save directory: C
-[17:32:04.825]   Directory exists/created OK
-[17:32:04.826]   Filename: C
-[17:32:04.826]   Exe directory: D
-[17:32:04.826]   Trying sound: D
-[17:32:04.826]     Found! Playing...
-[17:32:04.826]     PlaySound result: 1
-[17:32:04.826]   Creating PreviewWindow...
-[17:32:04.826]   PreviewWindow created at 0000022a35c64080
-[17:32:04.826]   Calling preview->Show()...
-[17:32:04.832]   preview->Show() returned
-[17:32:04.833]   Queueing async save...
-[17:32:04.833]   QueueUserWorkItem result: 1
-[17:32:04.833]   SaveCapture completed successfully
-[17:35:28.127] === CaptureRegion ===
-[17:35:28.127]   Rect: L=722 T=444 R=2472 B=1253
-[17:35:28.128]   Size: 1750x809
-[17:35:28.128] CaptureScreenArea: x=722, y=444, w=1750, h=809
-[17:35:28.128]   GetDC OK
-[17:35:28.128]   CreateCompatibleDC OK
-[17:35:28.128]   CreateDIBSection OK, pBits=0000022a37590000
-[17:35:28.163]   BitBlt result=1
-[17:35:28.164]   Returning hBitmap=ffffffffd4051512
-[17:35:28.164] SaveCapture: hBitmap=ffffffffd4051512, prefix=R
-[17:35:28.164]   Save directory: C
-[17:35:28.164]   Directory exists/created OK
-[17:35:28.164]   Filename: C
-[17:35:28.164]   Exe directory: D
-[17:35:28.164]   Trying sound: D
-[17:35:28.164]     Found! Playing...
-[17:35:28.165]     PlaySound result: 1
-[17:35:28.165]   Creating PreviewWindow...
-[17:35:28.165]   PreviewWindow created at 0000022a35c64980
-[17:35:28.165]   Calling preview->Show()...
-[17:35:28.186]   preview->Show() returned
-[17:35:28.186]   Queueing async save...
-[17:35:28.187]   QueueUserWorkItem result: 1
-[17:35:28.187]   SaveCapture completed successfully
-[17:37:12.452] === CaptureRegion ===
-[17:37:12.452]   Rect: L=1159 T=496 R=2234 B=1039
-[17:37:12.452]   Size: 1075x543
-[17:37:12.452] CaptureScreenArea: x=1159, y=496, w=1075, h=543
-[17:37:12.453]   GetDC OK
-[17:37:12.453]   CreateCompatibleDC OK
-[17:37:12.453]   CreateDIBSection OK, pBits=0000022a37590000
-[17:37:12.472]   BitBlt result=1
-[17:37:12.472]   Returning hBitmap=ffffffff8d050dfd
-[17:37:12.472] SaveCapture: hBitmap=ffffffff8d050dfd, prefix=R
-[17:37:12.473]   Save directory: C
-[17:37:12.473]   Directory exists/created OK
-[17:37:12.473]   Filename: C
-[17:37:12.473]   Exe directory: D
-[17:37:12.473]   Trying sound: D
-[17:37:12.473]     Found! Playing...
-[17:37:12.473]     PlaySound result: 1
-[17:37:12.473]   Creating PreviewWindow...
-[17:37:12.473]   PreviewWindow created at 0000022a35c64a40
-[17:37:12.474]   Calling preview->Show()...
-[17:37:12.488]   preview->Show() returned
-[17:37:12.489]   Queueing async save...
-[17:37:12.489]   QueueUserWorkItem result: 1
-[17:37:12.489]   SaveCapture completed successfully
-[17:39:52.441] === CaptureRegion ===
-[17:39:52.441]   Rect: L=1051 T=548 R=2383 B=1219
-[17:39:52.442]   Size: 1332x671
-[17:39:52.442] CaptureScreenArea: x=1051, y=548, w=1332, h=671
-[17:39:52.442]   GetDC OK
-[17:39:52.442]   CreateCompatibleDC OK
-[17:39:52.442]   CreateDIBSection OK, pBits=0000022a37590000
-[17:39:52.477]   BitBlt result=1
-[17:39:52.477]   Returning hBitmap=ffffffffc605148a
-[17:39:52.477] SaveCapture: hBitmap=ffffffffc605148a, prefix=R
-[17:39:52.477]   Save directory: C
-[17:39:52.478]   Directory exists/created OK
-[17:39:52.478]   Filename: C
-[17:39:52.478]   Exe directory: D
-[17:39:52.478]   Trying sound: D
-[17:39:52.478]     Found! Playing...
-[17:39:52.479]     PlaySound result: 1
-[17:39:52.479]   Creating PreviewWindow...
-[17:39:52.479]   PreviewWindow created at 0000022a35c64880
-[17:39:52.479]   Calling preview->Show()...
-[17:39:52.501]   preview->Show() returned
-[17:39:52.501]   Queueing async save...
-[17:39:52.502]   QueueUserWorkItem result: 1
-[17:39:52.502]   SaveCapture completed successfully
-[17:43:38.317] === CaptureRegion ===
-[17:43:38.317]   Rect: L=1265 T=537 R=2443 B=1197
-[17:43:38.317]   Size: 1178x660
-[17:43:38.317] CaptureScreenArea: x=1265, y=537, w=1178, h=660
-[17:43:38.318]   GetDC OK
-[17:43:38.318]   CreateCompatibleDC OK
-[17:43:38.318]   CreateDIBSection OK, pBits=00000226cd3f0000
-[17:43:38.339]   BitBlt result=1
-[17:43:38.339]   Returning hBitmap=00000000360513a1
-[17:43:38.340] SaveCapture: hBitmap=00000000360513a1, prefix=R
-[17:43:38.340]   Save directory: C
-[17:43:38.340]   Directory exists/created OK
-[17:43:38.340]   Filename: C
-[17:43:38.340]   Exe directory: D
-[17:43:38.340]   Trying sound: D
-[17:43:38.341]     Found! Playing...
-[17:43:38.342]     PlaySound result: 1
-[17:43:38.343]   Creating PreviewWindow...
-[17:43:38.343]   PreviewWindow created at 00000226ca4bef80
-[17:43:38.343]   Calling preview->Show()...
-[17:43:38.362]   preview->Show() returned
-[17:43:38.362]   Queueing async save...
-[17:43:38.362]   QueueUserWorkItem result: 1
-[17:43:38.362]   SaveCapture completed successfully
-[17:43:49.598] === CaptureRegion ===
-[17:43:49.599]   Rect: L=0 T=0 R=79 B=2076
-[17:43:49.599]   Size: 79x2076
-[17:43:49.599] CaptureScreenArea: x=0, y=0, w=79, h=2076
-[17:43:49.599]   GetDC OK
-[17:43:49.599]   CreateCompatibleDC OK
-[17:43:49.599]   CreateDIBSection OK, pBits=00000226cd3f0000
-[17:43:49.635]   BitBlt result=1
-[17:43:49.635]   Returning hBitmap=000000000c050cb3
-[17:43:49.636] SaveCapture: hBitmap=000000000c050cb3, prefix=R
-[17:43:49.636]   Save directory: C
-[17:43:49.636]   Directory exists/created OK
-[17:43:49.636]   Filename: C
-[17:43:49.636]   Exe directory: D
-[17:43:49.636]   Trying sound: D
-[17:43:49.636]     Found! Playing...
-[17:43:49.636]     PlaySound result: 1
-[17:43:49.637]   Creating PreviewWindow...
-[17:43:49.637]   PreviewWindow created at 00000226cbcb3e90
-[17:43:49.637]   Calling preview->Show()...
-[17:43:49.646]   preview->Show() returned
-[17:43:49.646]   Queueing async save...
-[17:43:49.646]   QueueUserWorkItem result: 1
-[17:43:49.646]   SaveCapture completed successfully
-[17:44:28.137] === CaptureFullScreen ===
-[17:44:28.137] CaptureScreenArea: x=0, y=0, w=3840, h=2160
-[17:44:28.137]   GetDC OK
-[17:44:28.137]   CreateCompatibleDC OK
-[17:44:28.137]   CreateDIBSection OK, pBits=00000226d0600000
-[17:44:28.230]   BitBlt result=1
-[17:44:28.230]   Returning hBitmap=ffffffffd905152a
-[17:44:28.230] SaveCapture: hBitmap=ffffffffd905152a, prefix=F
-[17:44:28.230]   Save directory: C
-[17:44:28.230]   Directory exists/created OK
-[17:44:28.230]   Filename: C
-[17:44:28.230]   Exe directory: D
-[17:44:28.230]   Trying sound: D
-[17:44:28.231]     Found! Playing...
-[17:44:28.231]     PlaySound result: 1
-[17:44:28.231]   Creating PreviewWindow...
-[17:44:28.231]   PreviewWindow created at 00000226cbcb4450
-[17:44:28.231]   Calling preview->Show()...
-[17:44:28.364]   preview->Show() returned
-[17:44:28.364]   Queueing async save...
-[17:44:28.365]   QueueUserWorkItem result: 1
-[17:44:28.365]   SaveCapture completed successfully
-[17:48:58.853] === CaptureRegion ===
-[17:48:58.853]   Rect: L=1141 T=524 R=2017 B=1027
-[17:48:58.853]   Size: 876x503
-[17:48:58.853] CaptureScreenArea: x=1141, y=524, w=876, h=503
-[17:48:58.854]   GetDC OK
-[17:48:58.854]   CreateCompatibleDC OK
-[17:48:58.854]   CreateDIBSection OK, pBits=000002586ffc0000
-[17:48:58.875]   BitBlt result=1
-[17:48:58.875]   Returning hBitmap=0000000015050d26
-[17:48:58.875] SaveCapture: hBitmap=0000000015050d26, prefix=R
-[17:48:58.875]   Save directory: C
-[17:48:58.876]   Directory exists/created OK
-[17:48:58.876]   Filename: C
-[17:48:58.876]   Exe directory: D
-[17:48:58.876]   Trying sound: D
-[17:48:58.876]     Found! Playing...
-[17:48:58.878]     PlaySound result: 1
-[17:48:58.878]   Queueing async save...
-[17:48:58.878]   QueueUserWorkItem result: 1
-[17:48:58.878]   SaveCapture completed successfully
-[17:49:05.318] === CaptureRegion ===
-[17:49:05.318]   Rect: L=1178 T=569 R=2118 B=1172
-[17:49:05.318]   Size: 940x603
-[17:49:05.319] CaptureScreenArea: x=1178, y=569, w=940, h=603
-[17:49:05.319]   GetDC OK
-[17:49:05.319]   CreateCompatibleDC OK
-[17:49:05.319]   CreateDIBSection OK, pBits=000002586ffc0000
-[17:49:05.342]   BitBlt result=1
-[17:49:05.343]   Returning hBitmap=ffffffff8c051029
-[17:49:05.343] SaveCapture: hBitmap=ffffffff8c051029, prefix=R
-[17:49:05.343]   Save directory: C
-[17:49:05.343]   Directory exists/created OK
-[17:49:05.343]   Filename: C
-[17:49:05.343]   Exe directory: D
-[17:49:05.343]   Trying sound: D
-[17:49:05.344]     Found! Playing...
-[17:49:05.344]     PlaySound result: 1
-[17:49:05.344]   Queueing async save...
-[17:49:05.344]   QueueUserWorkItem result: 1
-[17:49:05.344]   SaveCapture completed successfully
-[17:52:40.250] === CaptureRegion ===
-[17:52:40.250]   Rect: L=1241 T=396 R=2722 B=1305
-[17:52:40.250]   Size: 1481x909
-[17:52:40.250] CaptureScreenArea: x=1241, y=396, w=1481, h=909
-[17:52:40.250]   GetDC OK
-[17:52:40.250]   CreateCompatibleDC OK
-[17:52:40.250]   CreateDIBSection OK, pBits=000001f2055b0000
-[17:52:40.277]   BitBlt result=1
-[17:52:40.277]   Returning hBitmap=000000003b051639
-[17:52:40.277] SaveCapture: hBitmap=000000003b051639, prefix=R
-[17:52:40.278]   Save directory: C
-[17:52:40.278]   Directory exists/created OK
-[17:52:40.278]   Filename: C
-[17:52:40.278]   Exe directory: D
-[17:52:40.278]   Trying sound: D
-[17:52:40.279]   Trying sound: D
-[17:52:40.279]     Found! Playing...
-[17:52:40.280]     PlaySound result: 1
-[17:52:40.280]   Queueing async save...
-[17:52:40.280]   QueueUserWorkItem result: 1
-[17:52:40.280]   SaveCapture completed successfully
-[18:03:19.242] === CaptureRegion ===
-[18:03:19.242]   Rect: L=1035 T=626 R=2127 B=1165
-[18:03:19.242]   Size: 1092x539
-[18:03:19.243] CaptureScreenArea: x=1035, y=626, w=1092, h=539
-[18:03:19.243]   GetDC OK
-[18:03:19.243]   CreateCompatibleDC OK
-[18:03:19.243]   CreateDIBSection OK, pBits=000002a1b6c00000
-[18:03:19.263]   BitBlt result=1
-[18:03:19.263]   Returning hBitmap=000000003805163c
-[18:03:19.263] SaveCapture: hBitmap=000000003805163c, prefix=R
-[18:03:19.264]   Save directory: C
-[18:03:19.264]   Directory exists/created OK
-[18:03:19.264]   Filename: C
-[18:03:19.265]   Exe directory: D
-[18:03:19.265]   Trying sound: D
-[18:03:19.265]   Trying sound: D
-[18:03:19.265]     Found! Playing...
-[18:03:19.266]     PlaySound result: 1
-[18:03:19.267]   Queueing async save...
-[18:03:19.267]   QueueUserWorkItem result: 1
-[18:03:19.267]   SaveCapture completed successfully
-[18:05:34.080] === CaptureFullScreen ===
-[18:05:34.080] CaptureScreenArea: x=0, y=0, w=3840, h=2160
-[18:05:34.081]   GetDC OK
-[18:05:34.081]   CreateCompatibleDC OK
-[18:05:34.081]   CreateDIBSection OK, pBits=000002c8342d0000
-[18:05:34.166]   BitBlt result=1
-[18:05:34.166]   Returning hBitmap=0000000004051079
-[18:05:34.166] SaveCapture: hBitmap=0000000004051079, prefix=F
-[18:05:34.167]   Save directory: C
-[18:05:34.167]   Directory exists/created OK
-[18:05:34.167]   Filename: C
-[18:05:34.167]   Exe directory: D
-[18:05:34.167]   Trying sound: D
-[18:05:34.167]   Trying sound: D
-[18:05:34.167]     Found! Playing...
-[18:05:34.169]     PlaySound result: 1
-[18:05:34.169]   Creating PreviewWindow...
-[18:05:34.169]   PreviewWindow created at 000002c82e26ef60
-[18:05:34.169]   Calling preview->Show()...
-[18:05:34.298]   preview->Show() returned
-[18:05:34.298]   Queueing async save...
-[18:05:34.298]   QueueUserWorkItem result: 1
-[18:05:34.298]   SaveCapture completed successfully
-[18:05:42.602] === CaptureFullScreen ===
-[18:05:42.602] CaptureScreenArea: x=0, y=0, w=3840, h=2160
-[18:05:42.602]   GetDC OK
-[18:05:42.602]   CreateCompatibleDC OK
-[18:05:42.603]   CreateDIBSection OK, pBits=000002c8310c0000
-[18:05:42.680]   BitBlt result=1
-[18:05:42.680]   Returning hBitmap=ffffffffa00510a5
-[18:05:42.680] SaveCapture: hBitmap=ffffffffa00510a5, prefix=F
-[18:05:42.680]   Save directory: C
-[18:05:42.680]   Directory exists/created OK
-[18:05:42.680]   Filename: C
-[18:05:42.680]   Exe directory: D
-[18:05:42.680]   Trying sound: D
-[18:05:42.681]   Trying sound: D
-[18:05:42.681]     Found! Playing...
-[18:05:42.681]     PlaySound result: 1
-[18:05:42.681]   Creating PreviewWindow...
-[18:05:42.681]   PreviewWindow created at 000002c83c4f62a0
-[18:05:42.681]   Calling preview->Show()...
-[18:05:42.804]   preview->Show() returned
-[18:05:42.804]   Queueing async save...
-[18:05:42.805]   QueueUserWorkItem result: 1
-[18:05:42.805]   SaveCapture completed successfully
-[18:05:46.691] === CaptureFullScreen ===
-[18:05:46.691] CaptureScreenArea: x=0, y=0, w=3840, h=2160
-[18:05:46.691]   GetDC OK
-[18:05:46.692]   CreateCompatibleDC OK
-[18:05:46.692]   CreateDIBSection OK, pBits=000002c8310c0000
-[18:05:46.764]   BitBlt result=1
-[18:05:46.764]   Returning hBitmap=000000007e051631
-[18:05:46.764] SaveCapture: hBitmap=000000007e051631, prefix=F
-[18:05:46.764]   Save directory: C
-[18:05:46.764]   Directory exists/created OK
-[18:05:46.764]   Filename: C
-[18:05:46.764]   Exe directory: D
-[18:05:46.765]   Trying sound: D
-[18:05:46.765]   Trying sound: D
-[18:05:46.765]     Found! Playing...
-[18:05:46.765]     PlaySound result: 1
-[18:05:46.765]   Creating PreviewWindow...
-[18:05:46.765]   PreviewWindow created at 000002c83c4f6720
-[18:05:46.765]   Calling preview->Show()...
-[18:05:46.890]   preview->Show() returned
-[18:05:46.890]   Queueing async save...
-[18:05:46.890]   QueueUserWorkItem result: 1
-[18:05:46.890]   SaveCapture completed successfully
-[18:05:54.956] === CaptureFullScreen ===
-[18:05:54.956] CaptureScreenArea: x=0, y=0, w=3840, h=2160
-[18:05:54.956]   GetDC OK
-[18:05:54.956]   CreateCompatibleDC OK
-[18:05:54.956]   CreateDIBSection OK, pBits=000002c8310c0000
-[18:05:55.034]   BitBlt result=1
-[18:05:55.034]   Returning hBitmap=fffffffffb050e2c
-[18:05:55.034] SaveCapture: hBitmap=fffffffffb050e2c, prefix=F
-[18:05:55.034]   Save directory: C
-[18:05:55.034]   Directory exists/created OK
-[18:05:55.034]   Filename: C
-[18:05:55.034]   Exe directory: D
-[18:05:55.034]   Trying sound: D
-[18:05:55.034]   Trying sound: D
-[18:05:55.035]     Found! Playing...
-[18:05:55.035]     PlaySound result: 1
-[18:05:55.035]   Creating PreviewWindow...
-[18:05:55.035]   PreviewWindow created at 000002c83c4f6060
-[18:05:55.035]   Calling preview->Show()...
-[18:05:55.156]   preview->Show() returned
-[18:05:55.156]   Queueing async save...
-[18:05:55.156]   QueueUserWorkItem result: 1
-[18:05:55.156]   SaveCapture completed successfully
-[18:05:59.173] === CaptureActiveWindow ===
-[18:05:59.173] CaptureScreenArea: x=114, y=114, w=2880, h=1546
-[18:05:59.173]   GetDC OK
-[18:05:59.173]   CreateCompatibleDC OK
-[18:05:59.173]   CreateDIBSection OK, pBits=000002c8310c0000
-[18:05:59.219]   BitBlt result=1
-[18:05:59.219]   Returning hBitmap=000000002e050754
-[18:05:59.219] SaveCapture: hBitmap=000000002e050754, prefix=W
-[18:05:59.219]   Save directory: C
-[18:05:59.220]   Directory exists/created OK
-[18:05:59.220]   Filename: C
-[18:05:59.220]   Exe directory: D
-[18:05:59.220]   Trying sound: D
-[18:05:59.220]   Trying sound: D
-[18:05:59.220]     Found! Playing...
-[18:05:59.220]     PlaySound result: 1
-[18:05:59.220]   Creating PreviewWindow...
-[18:05:59.221]   PreviewWindow created at 000002c83c4f65a0
-[18:05:59.221]   Calling preview->Show()...
-[18:05:59.269]   preview->Show() returned
-[18:05:59.269]   Queueing async save...
-[18:05:59.269]   QueueUserWorkItem result: 1
-[18:05:59.269]   SaveCapture completed successfully
-[18:06:01.373] === CaptureFullScreen ===
-[18:06:01.373] CaptureScreenArea: x=0, y=0, w=3840, h=2160
-[18:06:01.373]   GetDC OK
-[18:06:01.373]   CreateCompatibleDC OK
-[18:06:01.373]   CreateDIBSection OK, pBits=000002c8310c0000
-[18:06:01.449]   BitBlt result=1
-[18:06:01.449]   Returning hBitmap=ffffffff9d050cd1
-[18:06:01.449] SaveCapture: hBitmap=ffffffff9d050cd1, prefix=F
-[18:06:01.449]   Save directory: C
-[18:06:01.449]   Directory exists/created OK
-[18:06:01.449]   Filename: C
-[18:06:01.450]   Exe directory: D
-[18:06:01.450]   Trying sound: D
-[18:06:01.450]   Trying sound: D
-[18:06:01.450]     Found! Playing...
-[18:06:01.450]     PlaySound result: 1
-[18:06:01.450]   Creating PreviewWindow...
-[18:06:01.450]   PreviewWindow created at 000002c83c4f6660
-[18:06:01.450]   Calling preview->Show()...
-[18:06:01.572]   preview->Show() returned
-[18:06:01.572]   Queueing async save...
-[18:06:01.572]   QueueUserWorkItem result: 1
-[18:06:01.572]   SaveCapture completed successfully
-[18:06:05.376] === CaptureRegion ===
-[18:06:05.376]   Rect: L=880 T=583 R=1702 B=1136
-[18:06:05.376]   Size: 822x553
-[18:06:05.376] CaptureScreenArea: x=880, y=583, w=822, h=553
-[18:06:05.376]   GetDC OK
-[18:06:05.377]   CreateCompatibleDC OK
-[18:06:05.377]   CreateDIBSection OK, pBits=000002c8310c0000
-[18:06:05.400]   BitBlt result=1
-[18:06:05.401]   Returning hBitmap=ffffffffd5050d56
-[18:06:05.401] SaveCapture: hBitmap=ffffffffd5050d56, prefix=R
-[18:06:05.401]   Save directory: C
-[18:06:05.401]   Directory exists/created OK
-[18:06:05.401]   Filename: C
-[18:06:05.401]   Exe directory: D
-[18:06:05.401]   Trying sound: D
-[18:06:05.401]   Trying sound: D
-[18:06:05.402]     Found! Playing...
-[18:06:05.402]     PlaySound result: 1
-[18:06:05.402]   Creating PreviewWindow...
-[18:06:05.402]   PreviewWindow created at 000002c82e1de8c0
-[18:06:05.402]   Calling preview->Show()...
-[18:06:05.414]   preview->Show() returned
-[18:06:05.415]   Queueing async save...
-[18:06:05.415]   QueueUserWorkItem result: 1
-[18:06:05.415]   SaveCapture completed successfully
-[18:11:13.822] === CaptureRegion ===
-[18:11:13.823]   Rect: L=1057 T=555 R=2303 B=1234
-[18:11:13.823]   Size: 1246x679
-[18:11:13.823] CaptureScreenArea: x=1057, y=555, w=1246, h=679
-[18:11:13.823]   GetDC OK
-[18:11:13.823]   CreateCompatibleDC OK
-[18:11:13.823]   CreateDIBSection OK, pBits=000001dde04c0000
-[18:11:13.852]   BitBlt result=1
-[18:11:13.852]   Returning hBitmap=ffffffffd8050c9d
-[18:11:13.852] SaveCapture: hBitmap=ffffffffd8050c9d, prefix=R
-[18:11:13.852]   Save directory: C
-[18:11:13.853]   Directory exists/created OK
-[18:11:13.853]   Filename: C
-[18:11:13.853]   Exe directory: D
-[18:11:13.853]   Trying sound: D
-[18:11:13.853]   Trying sound: D
-[18:11:13.853]     Found! Playing...
-[18:11:13.855]     PlaySound result: 1
-[18:11:13.855]   Creating PreviewWindow...
-[18:11:13.855]   PreviewWindow created at 000001dddd5cef60
-[18:11:13.855]   Calling preview->Show()...
-[18:11:13.874]   preview->Show() returned
-[18:11:13.874]   Queueing async save...
-[18:11:13.874]   QueueUserWorkItem result: 1
-[18:11:13.874]   SaveCapture completed successfully
-[18:11:24.321] === CaptureRegion ===
-[18:11:24.321]   Rect: L=0 T=0 R=76 B=2074
-[18:11:24.321]   Size: 76x2074
-[18:11:24.321] CaptureScreenArea: x=0, y=0, w=76, h=2074
-[18:11:24.322]   GetDC OK
-[18:11:24.322]   CreateCompatibleDC OK
-[18:11:24.322]   CreateDIBSection OK, pBits=000001dde04c0000
-[18:11:24.343]   BitBlt result=1
-[18:11:24.343]   Returning hBitmap=fffffffffb051082
-[18:11:24.344] SaveCapture: hBitmap=fffffffffb051082, prefix=R
-[18:11:24.344]   Save directory: C
-[18:11:24.344]   Directory exists/created OK
-[18:11:24.344]   Filename: C
-[18:11:24.344]   Exe directory: D
-[18:11:24.344]   Trying sound: D
-[18:11:24.344]   Trying sound: D
-[18:11:24.344]     Found! Playing...
-[18:11:24.344]     PlaySound result: 1
-[18:11:24.345]   Creating PreviewWindow...
-[18:11:24.345]   PreviewWindow created at 000001dddee33690
-[18:11:24.345]   Calling preview->Show()...
-[18:11:24.356]   preview->Show() returned
-[18:11:24.356]   Queueing async save...
-[18:11:24.356]   QueueUserWorkItem result: 1
-[18:11:24.356]   SaveCapture completed successfully
-[18:11:28.494] === CaptureFullScreen ===
-[18:11:28.494] CaptureScreenArea: x=0, y=0, w=3840, h=2160
-[18:11:28.495]   GetDC OK
-[18:11:28.495]   CreateCompatibleDC OK
-[18:11:28.495]   CreateDIBSection OK, pBits=000001dde36d0000
-[18:11:28.576]   BitBlt result=1
-[18:11:28.576]   Returning hBitmap=ffffffffcb05101e
-[18:11:28.577] SaveCapture: hBitmap=ffffffffcb05101e, prefix=F
-[18:11:28.577]   Save directory: C
-[18:11:28.577]   Directory exists/created OK
-[18:11:28.577]   Filename: C
-[18:11:28.577]   Exe directory: D
-[18:11:28.577]   Trying sound: D
-[18:11:28.577]   Trying sound: D
-[18:11:28.577]     Found! Playing...
-[18:11:28.577]     PlaySound result: 1
-[18:11:28.577]   Creating PreviewWindow...
-[18:11:28.578]   PreviewWindow created at 000001dddee33450
-[18:11:28.578]   Calling preview->Show()...
-[18:11:28.706]   preview->Show() returned
-[18:11:28.706]   Queueing async save...
-[18:11:28.706]   QueueUserWorkItem result: 1
-[18:11:28.706]   SaveCapture completed successfully
-[18:11:40.579] === CaptureRegion ===
-[18:11:40.579]   Rect: L=624 T=363 R=1772 B=644
-[18:11:40.579]   Size: 1148x281
-[18:11:40.579] CaptureScreenArea: x=624, y=363, w=1148, h=281
-[18:11:40.579]   GetDC OK
-[18:11:40.579]   CreateCompatibleDC OK
-[18:11:40.579]   CreateDIBSection OK, pBits=000001dde0660000
-[18:11:40.597]   BitBlt result=1
-[18:11:40.597]   Returning hBitmap=ffffffffdc051506
-[18:11:40.597] SaveCapture: hBitmap=ffffffffdc051506, prefix=R
-[18:11:40.597]   Save directory: C
-[18:11:40.597]   Directory exists/created OK
-[18:11:40.597]   Filename: C
-[18:11:40.598]   Exe directory: D
-[18:11:40.598]   Trying sound: D
-[18:11:40.598]   Trying sound: D
-[18:11:40.598]     Found! Playing...
-[18:11:40.598]     PlaySound result: 1
-[18:11:40.598]   Creating PreviewWindow...
-[18:11:40.598]   PreviewWindow created at 000001dddee3ccb0
-[18:11:40.598]   Calling preview->Show()...
-[18:11:40.609]   preview->Show() returned
-[18:11:40.609]   Queueing async save...
-[18:11:40.609]   QueueUserWorkItem result: 1
-[18:11:40.609]   SaveCapture completed successfully
+[18:27:43.156] === CaptureRegion ===
+[18:27:43.156]   Rect: L=1081 T=414 R=1593 B=1258
+[18:27:43.156]   Size: 512x844
+[18:27:43.157] CaptureScreenArea: x=1081, y=414, w=512, h=844
+[18:27:43.157]   GetDC OK
+[18:27:43.157]   CreateCompatibleDC OK
+[18:27:43.157]   CreateDIBSection OK, pBits=0000027506f70000
+[18:27:43.179]   BitBlt result=1
+[18:27:43.179]   Returning hBitmap=000000002a051042
+[18:27:43.179] SaveCapture: hBitmap=000000002a051042, prefix=R
+[18:27:43.180]   Save directory: C
+[18:27:43.180]   Directory exists/created OK
+[18:27:43.180]   Filename: C
+[18:27:43.180]   Exe directory: D
+[18:27:43.180]   Trying sound: D
+[18:27:43.180]   Trying sound: D
+[18:27:43.181]     Found! Playing...
+[18:27:43.183]     PlaySound result: 1
+[18:27:43.183]   Creating PreviewWindow...
+[18:27:43.183]   PreviewWindow created at 0000027503fbef60
+[18:27:43.183]   Calling preview->Show()...
+[18:27:43.202]   preview->Show() returned
+[18:27:43.203]   Queueing async save...
+[18:27:43.203]   QueueUserWorkItem result: 1
+[18:27:43.203]   SaveCapture completed successfully
+[18:28:42.964] === CaptureRegion ===
+[18:28:42.964]   Rect: L=1010 T=565 R=1803 B=1171
+[18:28:42.964]   Size: 793x606
+[18:28:42.964] CaptureScreenArea: x=1010, y=565, w=793, h=606
+[18:28:42.964]   GetDC OK
+[18:28:42.964]   CreateCompatibleDC OK
+[18:28:42.965]   CreateDIBSection OK, pBits=0000027506f70000
+[18:28:42.980]   BitBlt result=1
+[18:28:42.981]   Returning hBitmap=ffffffff83050bc3
+[18:28:42.981] SaveCapture: hBitmap=ffffffff83050bc3, prefix=R
+[18:28:42.981]   Save directory: C
+[18:28:42.981]   Directory exists/created OK
+[18:28:42.981]   Filename: C
+[18:28:42.981]   Exe directory: D
+[18:28:42.982]   Trying sound: D
+[18:28:42.982]   Trying sound: D
+[18:28:42.982]     Found! Playing...
+[18:28:42.982]     PlaySound result: 1
+[18:28:42.982]   Creating PreviewWindow...
+[18:28:42.982]   PreviewWindow created at 0000027503fbef20
+[18:28:42.982]   Calling preview->Show()...
+[18:28:43.002]   preview->Show() returned
+[18:28:43.002]   Queueing async save...
+[18:28:43.003]   QueueUserWorkItem result: 1
+[18:28:43.003]   SaveCapture completed successfully
+[18:30:38.875] === CaptureRegion ===
+[18:30:38.876]   Rect: L=893 T=639 R=1827 B=1151
+[18:30:38.876]   Size: 934x512
+[18:30:38.876] CaptureScreenArea: x=893, y=639, w=934, h=512
+[18:30:38.876]   GetDC OK
+[18:30:38.876]   CreateCompatibleDC OK
+[18:30:38.876]   CreateDIBSection OK, pBits=0000027431860000
+[18:30:38.896]   BitBlt result=1
+[18:30:38.897]   Returning hBitmap=ffffffffd5050fd9
+[18:30:38.897] SaveCapture: hBitmap=ffffffffd5050fd9, prefix=R
+[18:30:38.897]   Save directory: C
+[18:30:38.898]   Directory exists/created OK
+[18:30:38.898]   Filename: C
+[18:30:38.898]   Exe directory: D
+[18:30:38.898]   Trying sound: D
+[18:30:38.898]   Trying sound: D
+[18:30:38.898]     Found! Playing...
+[18:30:38.900]     PlaySound result: 1
+[18:30:38.900]   Creating PreviewWindow...
+[18:30:38.900]   PreviewWindow created at 000002742e76ef60
+[18:30:38.901]   Calling preview->Show()...
+[18:30:38.918]   preview->Show() returned
+[18:30:38.918]   Queueing async save...
+[18:30:38.918]   QueueUserWorkItem result: 1
+[18:30:38.918]   SaveCapture completed successfully
+[18:32:16.225] === CaptureRegion ===
+[18:32:16.225]   Rect: L=1003 T=458 R=2359 B=1316
+[18:32:16.225]   Size: 1356x858
+[18:32:16.226] CaptureScreenArea: x=1003, y=458, w=1356, h=858
+[18:32:16.226]   GetDC OK
+[18:32:16.226]   CreateCompatibleDC OK
+[18:32:16.226]   CreateDIBSection OK, pBits=0000029f3b040000
+[18:32:16.248]   BitBlt result=1
+[18:32:16.248]   Returning hBitmap=fffffffff1050fbc
+[18:32:16.249] SaveCapture: hBitmap=fffffffff1050fbc, prefix=R
+[18:32:16.249]   Save directory: C
+[18:32:16.249]   Directory exists/created OK
+[18:32:16.249]   Filename: C
+[18:32:16.250]   Exe directory: D
+[18:32:16.250]   Trying sound: D
+[18:32:16.250]   Trying sound: D
+[18:32:16.250]     Found! Playing...
+[18:32:16.252]     PlaySound result: 1
+[18:32:16.252]   Creating PreviewWindow...
+[18:32:16.252]   PreviewWindow created at 0000029f3819ef60
+[18:32:16.252]   Calling preview->Show()...
+[18:32:16.274]   preview->Show() returned
+[18:32:16.275]   Queueing async save...
+[18:32:16.275]   QueueUserWorkItem result: 1
+[18:32:16.275]   SaveCapture completed successfully
+[18:32:32.721] === CaptureRegion ===
+[18:32:32.722]   Rect: L=595 T=193 R=2083 B=1234
+[18:32:32.722]   Size: 1488x1041
+[18:32:32.722] CaptureScreenArea: x=595, y=193, w=1488, h=1041
+[18:32:32.722]   GetDC OK
+[18:32:32.722]   CreateCompatibleDC OK
+[18:32:32.722]   CreateDIBSection OK, pBits=0000029f3b530000
+[18:32:32.754]   BitBlt result=1
+[18:32:32.754]   Returning hBitmap=00000000590510ff
+[18:32:32.754] SaveCapture: hBitmap=00000000590510ff, prefix=R
+[18:32:32.755]   Save directory: C
+[18:32:32.755]   Directory exists/created OK
+[18:32:32.755]   Filename: C
+[18:32:32.755]   Exe directory: D
+[18:32:32.755]   Trying sound: D
+[18:32:32.755]   Trying sound: D
+[18:32:32.755]     Found! Playing...
+[18:32:32.756]     PlaySound result: 1
+[18:32:32.756]   Creating PreviewWindow...
+[18:32:32.756]   PreviewWindow created at 0000029f38095c20
+[18:32:32.756]   Calling preview->Show()...
+[18:32:32.789]   preview->Show() returned
+[18:32:32.790]   Queueing async save...
+[18:32:32.790]   QueueUserWorkItem result: 1
+[18:32:32.790]   SaveCapture completed successfully
+[18:34:22.703] === CaptureRegion ===
+[18:34:22.703]   Rect: L=704 T=382 R=1119 B=1302
+[18:34:22.703]   Size: 415x920
+[18:34:22.703] CaptureScreenArea: x=704, y=382, w=415, h=920
+[18:34:22.704]   GetDC OK
+[18:34:22.704]   CreateCompatibleDC OK
+[18:34:22.704]   CreateDIBSection OK, pBits=00000174b3dd0000
+[18:34:22.724]   BitBlt result=1
+[18:34:22.724]   Returning hBitmap=ffffffffce051486
+[18:34:22.724] SaveCapture: hBitmap=ffffffffce051486, prefix=R
+[18:34:22.725]   Save directory: C
+[18:34:22.725]   Directory exists/created OK
+[18:34:22.725]   Filename: C
+[18:34:22.725]   Exe directory: D
+[18:34:22.726]   Trying sound: D
+[18:34:22.726]   Trying sound: D
+[18:34:22.726]     Found! Playing...
+[18:34:22.729]     PlaySound result: 1
+[18:34:22.729]   Creating PreviewWindow...
+[18:34:22.729]   PreviewWindow created at 00000174b0f7ef60
+[18:34:22.729]   Calling preview->Show()...
+[18:34:22.744]   preview->Show() returned
+[18:34:22.745]   Queueing async save...
+[18:34:22.745]   QueueUserWorkItem result: 1
+[18:34:22.745]   SaveCapture completed successfully
+[18:34:47.923] === CaptureRegion ===
+[18:34:47.923]   Rect: L=969 T=292 R=1775 B=1079
+[18:34:47.923]   Size: 806x787
+[18:34:47.923] CaptureScreenArea: x=969, y=292, w=806, h=787
+[18:34:47.923]   GetDC OK
+[18:34:47.923]   CreateCompatibleDC OK
+[18:34:47.923]   CreateDIBSection OK, pBits=00000174b3dd0000
+[18:34:47.936]   BitBlt result=1
+[18:34:47.936]   Returning hBitmap=0000000018051010
+[18:34:47.937] SaveCapture: hBitmap=0000000018051010, prefix=R
+[18:34:47.937]   Save directory: C
+[18:34:47.937]   Directory exists/created OK
+[18:34:47.937]   Filename: C
+[18:34:47.937]   Exe directory: D
+[18:34:47.937]   Trying sound: D
+[18:34:47.937]   Trying sound: D
+[18:34:47.938]     Found! Playing...
+[18:34:47.938]     PlaySound result: 1
+[18:34:47.938]   Creating PreviewWindow...
+[18:34:47.938]   PreviewWindow created at 00000174b0e570c0
+[18:34:47.938]   Calling preview->Show()...
+[18:34:47.951]   preview->Show() returned
+[18:34:47.951]   Queueing async save...
+[18:34:47.951]   QueueUserWorkItem result: 1
+[18:34:47.952]   SaveCapture completed successfully
+[18:36:42.745] === CaptureRegion ===
+[18:36:42.745]   Rect: L=786 T=320 R=1688 B=1027
+[18:36:42.745]   Size: 902x707
+[18:36:42.745] CaptureScreenArea: x=786, y=320, w=902, h=707
+[18:36:42.745]   GetDC OK
+[18:36:42.746]   CreateCompatibleDC OK
+[18:36:42.746]   CreateDIBSection OK, pBits=00000221555e0000
+[18:36:42.772]   BitBlt result=1
+[18:36:42.772]   Returning hBitmap=000000006a0515cc
+[18:36:42.772] SaveCapture: hBitmap=000000006a0515cc, prefix=R
+[18:36:42.773]   Save directory: C
+[18:36:42.773]   Directory exists/created OK
+[18:36:42.773]   Filename: C
+[18:36:42.774]   Exe directory: D
+[18:36:42.774]   Trying sound: D
+[18:36:42.774]   Trying sound: D
+[18:36:42.774]     Found! Playing...
+[18:36:42.776]     PlaySound result: 1
+[18:36:42.777]   Creating PreviewWindow...
+[18:36:42.777]   PreviewWindow created at 00000221527aef60
+[18:36:42.777]   Calling preview->Show()...
+[18:36:42.800]   preview->Show() returned
+[18:36:42.800]   Queueing async save...
+[18:36:42.800]   QueueUserWorkItem result: 1
+[18:36:42.800]   SaveCapture completed successfully
+[18:36:59.348] === CaptureRegion ===
+[18:36:59.348]   Rect: L=857 T=420 R=1795 B=1107
+[18:36:59.348]   Size: 938x687
+[18:36:59.348] CaptureScreenArea: x=857, y=420, w=938, h=687
+[18:36:59.348]   GetDC OK
+[18:36:59.348]   CreateCompatibleDC OK
+[18:36:59.348]   CreateDIBSection OK, pBits=00000221558a0000
+[18:36:59.370]   BitBlt result=1
+[18:36:59.370]   Returning hBitmap=0000000079051029
+[18:36:59.370] SaveCapture: hBitmap=0000000079051029, prefix=R
+[18:36:59.370]   Save directory: C
+[18:36:59.371]   Directory exists/created OK
+[18:36:59.371]   Filename: C
+[18:36:59.371]   Exe directory: D
+[18:36:59.371]   Trying sound: D
+[18:36:59.371]   Trying sound: D
+[18:36:59.371]     Found! Playing...
+[18:36:59.371]     PlaySound result: 1
+[18:36:59.371]   Creating PreviewWindow...
+[18:36:59.371]   PreviewWindow created at 0000022153dd4350
+[18:36:59.372]   Calling preview->Show()...
+[18:36:59.391]   preview->Show() returned
+[18:36:59.391]   Queueing async save...
+[18:36:59.391]   QueueUserWorkItem result: 1
+[18:36:59.391]   SaveCapture completed successfully
+[18:39:37.959] === CaptureRegion ===
+[18:39:37.959]   Rect: L=1224 T=473 R=2552 B=1239
+[18:39:37.959]   Size: 1328x766
+[18:39:37.959] CaptureScreenArea: x=1224, y=473, w=1328, h=766
+[18:39:37.959]   GetDC OK
+[18:39:37.959]   CreateCompatibleDC OK
+[18:39:37.960]   CreateDIBSection OK, pBits=000002774b4a0000
+[18:39:37.996]   BitBlt result=1
+[18:39:37.996]   Returning hBitmap=000000005f051557
+[18:39:37.996] SaveCapture: hBitmap=000000005f051557, prefix=R
+[18:39:37.997]   Save directory: C
+[18:39:37.997]   Directory exists/created OK
+[18:39:37.997]   Filename: C
+[18:39:37.997]   Exe directory: D
+[18:39:37.998]   Trying sound: D
+[18:39:37.998]   Trying sound: D
+[18:39:37.998]     Found! Playing...
+[18:39:38.000]     PlaySound result: 1
+[18:39:38.000]   Creating PreviewWindow...
+[18:39:38.000]   PreviewWindow created at 000002774850ef60
+[18:39:38.001]   Calling preview->Show()...
+[18:39:38.025]   preview->Show() returned
+[18:39:38.025]   Queueing async save...
+[18:39:38.026]   QueueUserWorkItem result: 1
+[18:39:38.026]   SaveCapture completed successfully
+[18:40:02.562] === CaptureRegion ===
+[18:40:02.562]   Rect: L=1261 T=442 R=1627 B=998
+[18:40:02.562]   Size: 366x556
+[18:40:02.563] CaptureScreenArea: x=1261, y=442, w=366, h=556
+[18:40:02.563]   GetDC OK
+[18:40:02.563]   CreateCompatibleDC OK
+[18:40:02.563]   CreateDIBSection OK, pBits=000002774b4a0000
+[18:40:02.580]   BitBlt result=1
+[18:40:02.580]   Returning hBitmap=000000005d051048
+[18:40:02.581] SaveCapture: hBitmap=000000005d051048, prefix=R
+[18:40:02.581]   Save directory: C
+[18:40:02.581]   Directory exists/created OK
+[18:40:02.581]   Filename: C
+[18:40:02.581]   Exe directory: D
+[18:40:02.582]   Trying sound: D
+[18:40:02.582]   Trying sound: D
+[18:40:02.582]     Found! Playing...
+[18:40:02.582]     PlaySound result: 1
+[18:40:02.582]   Creating PreviewWindow...
+[18:40:02.582]   PreviewWindow created at 0000027749d09340
+[18:40:02.583]   Calling preview->Show()...
+[18:40:02.594]   preview->Show() returned
+[18:40:02.594]   Queueing async save...
+[18:40:02.594]   QueueUserWorkItem result: 1
+[18:40:02.594]   SaveCapture completed successfully
+[18:40:27.301] === CaptureRegion ===
+[18:40:27.302]   Rect: L=1212 T=473 R=1991 B=963
+[18:40:27.302]   Size: 779x490
+[18:40:27.302] CaptureScreenArea: x=1212, y=473, w=779, h=490
+[18:40:27.302]   GetDC OK
+[18:40:27.302]   CreateCompatibleDC OK
+[18:40:27.302]   CreateDIBSection OK, pBits=000002774b940000
+[18:40:27.326]   BitBlt result=1
+[18:40:27.326]   Returning hBitmap=000000000505162e
+[18:40:27.326] SaveCapture: hBitmap=000000000505162e, prefix=R
+[18:40:27.327]   Save directory: C
+[18:40:27.327]   Directory exists/created OK
+[18:40:27.327]   Filename: C
+[18:40:27.327]   Exe directory: D
+[18:40:27.327]   Trying sound: D
+[18:40:27.327]   Trying sound: D
+[18:40:27.327]     Found! Playing...
+[18:40:27.328]     PlaySound result: 1
+[18:40:27.328]   Creating PreviewWindow...
+[18:40:27.328]   PreviewWindow created at 0000027749d09240
+[18:40:27.328]   Calling preview->Show()...
+[18:40:27.343]   preview->Show() returned
+[18:40:27.343]   Queueing async save...
+[18:40:27.343]   QueueUserWorkItem result: 1
+[18:40:27.343]   SaveCapture completed successfully
+[18:40:40.455] === CaptureRegion ===
+[18:40:40.455]   Rect: L=1320 T=337 R=2245 B=1406
+[18:40:40.455]   Size: 925x1069
+[18:40:40.455] CaptureScreenArea: x=1320, y=337, w=925, h=1069
+[18:40:40.456]   GetDC OK
+[18:40:40.456]   CreateCompatibleDC OK
+[18:40:40.456]   CreateDIBSection OK, pBits=000002774b940000
+[18:40:40.487]   BitBlt result=1
+[18:40:40.488]   Returning hBitmap=000000004a050d1f
+[18:40:40.488] SaveCapture: hBitmap=000000004a050d1f, prefix=R
+[18:40:40.488]   Save directory: C
+[18:40:40.488]   Directory exists/created OK
+[18:40:40.488]   Filename: C
+[18:40:40.488]   Exe directory: D
+[18:40:40.488]   Trying sound: D
+[18:40:40.489]   Trying sound: D
+[18:40:40.489]     Found! Playing...
+[18:40:40.489]     PlaySound result: 1
+[18:40:40.489]   Creating PreviewWindow...
+[18:40:40.489]   PreviewWindow created at 0000027749d08a00
+[18:40:40.489]   Calling preview->Show()...
+[18:40:40.513]   preview->Show() returned
+[18:40:40.513]   Queueing async save...
+[18:40:40.513]   QueueUserWorkItem result: 1
+[18:40:40.513]   SaveCapture completed successfully

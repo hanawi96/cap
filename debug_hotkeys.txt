@@ -1,26 +1,12 @@
-[17:20:02.876] RegisterHotkeys called, hwnd=000000000021036c
-[17:20:02.877]   All hotkeys registered successfully
-[17:22:11.955] RegisterHotkeys called, hwnd=000000000003062e
-[17:22:11.955]   All hotkeys registered successfully
-[17:24:44.104] RegisterHotkeys called, hwnd=0000000000050628
-[17:24:44.105]   All hotkeys registered successfully
-[17:30:18.215] RegisterHotkeys called, hwnd=000000000033056c
-[17:30:18.215]   All hotkeys registered successfully
-[17:41:08.759] RegisterHotkeys called, hwnd=000000000034056c
-[17:41:08.759]   All hotkeys registered successfully
-[17:42:35.283] RegisterHotkeys called, hwnd=000000000035056c
-[17:42:35.284]   All hotkeys registered successfully
-[17:43:15.348] RegisterHotkeys called, hwnd=000000000036056c
-[17:43:15.348]   All hotkeys registered successfully
-[17:48:34.955] RegisterHotkeys called, hwnd=00000000000d0622
-[17:48:34.955]   All hotkeys registered successfully
-[17:52:12.149] RegisterHotkeys called, hwnd=00000000000d0668
-[17:52:12.150]   All hotkeys registered successfully
-[17:53:22.061] RegisterHotkeys called, hwnd=00000000002b067c
-[17:53:22.061]   All hotkeys registered successfully
-[18:03:06.776] RegisterHotkeys called, hwnd=00000000002c067c
-[18:03:06.776]   All hotkeys registered successfully
-[18:05:12.901] RegisterHotkeys called, hwnd=00000000001e03e4
-[18:05:12.901]   All hotkeys registered successfully
-[18:08:23.234] RegisterHotkeys called, hwnd=00000000001f03e4
-[18:08:23.234]   All hotkeys registered successfully
+[18:27:06.852] RegisterHotkeys called, hwnd=0000000000090336
+[18:27:06.852]   All hotkeys registered successfully
+[18:29:21.250] RegisterHotkeys called, hwnd=00000000000a0336
+[18:29:21.250]   All hotkeys registered successfully
+[18:31:50.208] RegisterHotkeys called, hwnd=00000000000b0336
+[18:31:50.208]   All hotkeys registered successfully
+[18:33:43.078] RegisterHotkeys called, hwnd=00000000000c0336
+[18:33:43.078]   All hotkeys registered successfully
+[18:36:14.800] RegisterHotkeys called, hwnd=00000000000d0336
+[18:36:14.800]   All hotkeys registered successfully
+[18:39:11.889] RegisterHotkeys called, hwnd=00000000000e0336
+[18:39:11.889]   All hotkeys registered successfully

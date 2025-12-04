@@ -1,548 +1,436 @@
-[17:28:10.301] Overlay constructor called
-[17:28:10.301] === Overlay::Show() START ===
-[17:28:10.301]   hInstance=00007ff77a1c0000
-[17:28:10.301]   RegisterClassExW: atom=49816, error=183
-[17:28:10.301]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:28:10.301]   Creating window: size=3840x2160
-[17:28:10.303] WndProc: WM_CREATE
-[17:28:10.303]   Window created: hwnd=0000000000070668
-[17:28:10.316]   Backbuffer created: 3840x2160
-[17:28:10.320]   Transparency set
-[17:28:10.327]   Window shown, entering message loop...
-[17:28:11.412] WndProc: WM_LBUTTONDOWN at (914,333)
-[17:28:11.412] OnLButtonDown: (914,333)
-[17:28:11.412]   Capture set, isSelecting=true
-[17:28:11.540]   Message loop iteration 100, isComplete=0
-[17:28:11.892] WndProc: WM_LBUTTONUP at (2340,1318)
-[17:28:11.892] OnLButtonUp: (2340,1318)
-[17:28:11.893]   Selection complete: L=914 T=333 R=2340 B=1318
-[17:28:11.893]   m_isComplete set to true
-[17:28:11.893]   Message loop exited, loopCount=133, isComplete=1
-[17:28:11.893]   Selected rect: L=914 T=333 R=2340 B=1318
-[17:28:11.893]   Destroying overlay window...
-[17:28:11.895] WndProc: WM_DESTROY
-[17:28:11.896] === Overlay::Show() END, returning 1 ===
+[18:27:35.841] Overlay constructor called
+[18:27:35.841] === Overlay::Show() START ===
+[18:27:35.842]   hInstance=00007ff69fd40000
+[18:27:35.842]   RegisterClassExW: atom=49816, error=183
+[18:27:35.842]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:27:35.842]   Creating window: size=3840x2160
+[18:27:35.843] WndProc: WM_CREATE
+[18:27:35.844]   Window created: hwnd=0000000000330510
+[18:27:35.943]   Screenshot captured: 3840x2160
+[18:27:35.958]   Backbuffer created: 3840x2160
+[18:27:35.963]   Transparency set
+[18:27:35.970]   Window shown, entering message loop...
+[18:27:36.783] WndProc: WM_LBUTTONDOWN at (1081,414)
+[18:27:36.783] OnLButtonDown: (1081,414)
+[18:27:36.784]   Capture set, isSelecting=true
+[18:27:37.175]   Message loop iteration 100, isComplete=0
+[18:27:38.239]   Message loop iteration 200, isComplete=0
+[18:27:39.145]   Message loop iteration 300, isComplete=0
+[18:27:40.048]   Message loop iteration 400, isComplete=0
+[18:27:40.992]   Message loop iteration 500, isComplete=0
+[18:27:42.024]   Message loop iteration 600, isComplete=0
+[18:27:43.152] WndProc: WM_LBUTTONUP at (1593,1258)
+[18:27:43.152] OnLButtonUp: (1593,1258)
+[18:27:43.153]   Selection complete: L=1081 T=414 R=1593 B=1258
+[18:27:43.153]   m_isComplete set to true
+[18:27:43.153]   Message loop exited, loopCount=609, isComplete=1
+[18:27:43.153]   Selected rect: L=1081 T=414 R=1593 B=1258
+[18:27:43.153]   Destroying overlay window...
+[18:27:43.155] WndProc: WM_DESTROY
+[18:27:43.156] === Overlay::Show() END, returning 1 ===
 
-[17:28:11.961] Overlay destructor called
-[17:28:11.964] Overlay destructor completed
-[17:30:28.238] Overlay constructor called
-[17:30:28.239] === Overlay::Show() START ===
-[17:30:28.239]   hInstance=00007ff671390000
-[17:30:28.239]   RegisterClassExW: atom=49855, error=183
-[17:30:28.239]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:30:28.239]   Creating window: size=3840x2160
-[17:30:28.241] WndProc: WM_CREATE
-[17:30:28.241]   Window created: hwnd=000000000004066a
-[17:30:28.254]   Backbuffer created: 3840x2160
-[17:30:28.259]   Transparency set
-[17:30:28.265]   Window shown, entering message loop...
-[17:30:29.805]   Message loop iteration 100, isComplete=0
-[17:30:30.013] WndProc: WM_LBUTTONDOWN at (3048,1566)
-[17:30:30.013] OnLButtonDown: (3048,1566)
-[17:30:30.014]   Capture set, isSelecting=true
-[17:30:30.117] WndProc: WM_LBUTTONUP at (3048,1566)
-[17:30:30.117] OnLButtonUp: (3048,1566)
-[17:30:30.117]   Selection complete: L=3048 T=1566 R=3048 B=1566
-[17:30:30.118]   m_isComplete set to true
-[17:30:30.118]   Message loop exited, loopCount=122, isComplete=1
-[17:30:30.118]   Selected rect: L=3048 T=1566 R=3048 B=1566
-[17:30:30.118]   Destroying overlay window...
-[17:30:30.120] WndProc: WM_DESTROY
-[17:30:30.122] === Overlay::Show() END, returning 0 ===
+[18:27:43.203] Overlay destructor called
+[18:27:43.212] Overlay destructor completed
+[18:28:31.695] Overlay constructor called
+[18:28:31.696] === Overlay::Show() START ===
+[18:28:31.696]   hInstance=00007ff69fd40000
+[18:28:31.696]   RegisterClassExW: atom=49847, error=183
+[18:28:31.696]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:28:31.696]   Creating window: size=3840x2160
+[18:28:31.697] WndProc: WM_CREATE
+[18:28:31.697]   Window created: hwnd=0000000000170490
+[18:28:31.791]   Screenshot captured: 3840x2160
+[18:28:31.807]   Backbuffer created: 3840x2160
+[18:28:31.813]   Transparency set
+[18:28:31.819]   Window shown, entering message loop...
+[18:28:32.838] WndProc: WM_LBUTTONDOWN at (1010,565)
+[18:28:32.838] OnLButtonDown: (1010,565)
+[18:28:32.838]   Capture set, isSelecting=true
+[18:28:33.151]   Message loop iteration 100, isComplete=0
+[18:28:34.039]   Message loop iteration 200, isComplete=0
+[18:28:34.935]   Message loop iteration 300, isComplete=0
+[18:28:36.335]   Message loop iteration 400, isComplete=0
+[18:28:37.857]   Message loop iteration 500, isComplete=0
+[18:28:39.000]   Message loop iteration 600, isComplete=0
+[18:28:40.039]   Message loop iteration 700, isComplete=0
+[18:28:41.641]   Message loop iteration 800, isComplete=0
+[18:28:42.960] WndProc: WM_LBUTTONUP at (1803,1171)
+[18:28:42.960] OnLButtonUp: (1803,1171)
+[18:28:42.960]   Selection complete: L=1010 T=565 R=1803 B=1171
+[18:28:42.960]   m_isComplete set to true
+[18:28:42.960]   Message loop exited, loopCount=885, isComplete=1
+[18:28:42.960]   Selected rect: L=1010 T=565 R=1803 B=1171
+[18:28:42.961]   Destroying overlay window...
+[18:28:42.962] WndProc: WM_DESTROY
+[18:28:42.963] === Overlay::Show() END, returning 1 ===
 
-[17:30:30.122] Overlay destructor called
-[17:30:30.125] Overlay destructor completed
-[17:30:59.594] Overlay constructor called
-[17:30:59.594] === Overlay::Show() START ===
-[17:30:59.595]   hInstance=00007ff671390000
-[17:30:59.595]   RegisterClassExW: atom=49855, error=183
-[17:30:59.595]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:30:59.595]   Creating window: size=3840x2160
-[17:30:59.596] WndProc: WM_CREATE
-[17:30:59.597]   Window created: hwnd=0000000000230636
-[17:30:59.610]   Backbuffer created: 3840x2160
-[17:30:59.614]   Transparency set
-[17:30:59.621]   Window shown, entering message loop...
-[17:31:00.393] WndProc: WM_LBUTTONDOWN at (956,429)
-[17:31:00.393] OnLButtonDown: (956,429)
-[17:31:00.394]   Capture set, isSelecting=true
-[17:31:00.905] WndProc: WM_LBUTTONUP at (2276,1271)
-[17:31:00.905] OnLButtonUp: (2276,1271)
-[17:31:00.905]   Selection complete: L=956 T=429 R=2276 B=1271
-[17:31:00.905]   m_isComplete set to true
-[17:31:00.905]   Message loop exited, loopCount=83, isComplete=1
-[17:31:00.905]   Selected rect: L=956 T=429 R=2276 B=1271
-[17:31:00.905]   Destroying overlay window...
-[17:31:00.907] WndProc: WM_DESTROY
-[17:31:00.909] === Overlay::Show() END, returning 1 ===
+[18:28:43.003] Overlay destructor called
+[18:28:43.011] Overlay destructor completed
+[18:30:34.024] Overlay constructor called
+[18:30:34.025] === Overlay::Show() START ===
+[18:30:34.025]   hInstance=00007ff61d080000
+[18:30:34.025]   RegisterClassExW: atom=49847, error=183
+[18:30:34.025]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:30:34.025]   Creating window: size=3840x2160
+[18:30:34.027] WndProc: WM_CREATE
+[18:30:34.027]   Window created: hwnd=0000000000120424
+[18:30:34.127]   Screenshot captured: 3840x2160 in 78ms
+[18:30:34.142]   Backbuffer created: 3840x2160
+[18:30:34.148]   Transparency set
+[18:30:34.154]   Window shown, entering message loop...
+[18:30:35.046] WndProc: WM_LBUTTONDOWN at (893,639)
+[18:30:35.046] OnLButtonDown: (893,639)
+[18:30:35.046]   Capture set, isSelecting=true
+[18:30:35.454]   Message loop iteration 100, isComplete=0
+[18:30:36.264]   Message loop iteration 200, isComplete=0
+[18:30:38.871] WndProc: WM_LBUTTONUP at (1827,1151)
+[18:30:38.871] OnLButtonUp: (1827,1151)
+[18:30:38.871]   Selection complete: L=893 T=639 R=1827 B=1151
+[18:30:38.871]   m_isComplete set to true
+[18:30:38.872]   Message loop exited, loopCount=225, isComplete=1
+[18:30:38.872]   Selected rect: L=893 T=639 R=1827 B=1151
+[18:30:38.872]   Destroying overlay window...
+[18:30:38.874] WndProc: WM_DESTROY
+[18:30:38.875] === Overlay::Show() END, returning 1 ===
 
-[17:31:00.960] Overlay destructor called
-[17:31:00.963] Overlay destructor completed
-[17:31:20.598] Overlay constructor called
-[17:31:20.598] === Overlay::Show() START ===
-[17:31:20.598]   hInstance=00007ff671390000
-[17:31:20.598]   RegisterClassExW: atom=49845, error=183
-[17:31:20.598]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:31:20.598]   Creating window: size=3840x2160
-[17:31:20.600] WndProc: WM_CREATE
-[17:31:20.600]   Window created: hwnd=00000000001905ba
-[17:31:20.612]   Backbuffer created: 3840x2160
-[17:31:20.617]   Transparency set
-[17:31:20.623]   Window shown, entering message loop...
-[17:31:21.692] WndProc: WM_LBUTTONDOWN at (1068,471)
-[17:31:21.692] OnLButtonDown: (1068,471)
-[17:31:21.692]   Capture set, isSelecting=true
-[17:31:21.932]   Message loop iteration 100, isComplete=0
-[17:31:22.315] WndProc: WM_LBUTTONUP at (1308,728)
-[17:31:22.316] OnLButtonUp: (1308,728)
-[17:31:22.316]   Selection complete: L=1068 T=471 R=1308 B=728
-[17:31:22.316]   m_isComplete set to true
-[17:31:22.316]   Message loop exited, loopCount=133, isComplete=1
-[17:31:22.316]   Selected rect: L=1068 T=471 R=1308 B=728
-[17:31:22.316]   Destroying overlay window...
-[17:31:22.318] WndProc: WM_DESTROY
-[17:31:22.319] === Overlay::Show() END, returning 1 ===
+[18:30:38.919] Overlay destructor called
+[18:30:38.930] Overlay destructor completed
+[18:32:12.853] Overlay constructor called
+[18:32:12.853] === Overlay::Show() START ===
+[18:32:12.853]   hInstance=00007ff635880000
+[18:32:12.853]   RegisterClassExW: atom=49862, error=183
+[18:32:12.853]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:32:12.853]   Creating window: size=3840x2160
+[18:32:12.855] WndProc: WM_CREATE
+[18:32:12.855]   Window created: hwnd=00000000001c0490
+[18:32:12.948]   Screenshot captured: 3840x2160 in 78ms
+[18:32:12.961]   Backbuffer created: 3840x2160
+[18:32:12.967]   Transparency set
+[18:32:12.974]   Window shown, entering message loop...
+[18:32:13.690] WndProc: WM_LBUTTONDOWN at (1003,458)
+[18:32:13.690] OnLButtonDown: (1003,458)
+[18:32:13.690]   Capture set, isSelecting=true
+[18:32:14.194]   Message loop iteration 100, isComplete=0
+[18:32:15.204]   Message loop iteration 200, isComplete=0
+[18:32:16.050]   Message loop iteration 300, isComplete=0
+[18:32:16.221] WndProc: WM_LBUTTONUP at (2359,1316)
+[18:32:16.221] OnLButtonUp: (2359,1316)
+[18:32:16.221]   Selection complete: L=1003 T=458 R=2359 B=1316
+[18:32:16.221]   m_isComplete set to true
+[18:32:16.222]   Message loop exited, loopCount=312, isComplete=1
+[18:32:16.222]   Selected rect: L=1003 T=458 R=2359 B=1316
+[18:32:16.222]   Destroying overlay window...
+[18:32:16.224] WndProc: WM_DESTROY
+[18:32:16.225] === Overlay::Show() END, returning 1 ===
 
-[17:31:22.347] Overlay destructor called
-[17:31:22.350] Overlay destructor completed
-[17:31:37.847] Overlay constructor called
-[17:31:37.847] === Overlay::Show() START ===
-[17:31:37.847]   hInstance=00007ff671390000
-[17:31:37.848]   RegisterClassExW: atom=49856, error=183
-[17:31:37.848]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:31:37.848]   Creating window: size=3840x2160
-[17:31:37.849] WndProc: WM_CREATE
-[17:31:37.849]   Window created: hwnd=00000000000f0592
-[17:31:37.866]   Backbuffer created: 3840x2160
-[17:31:37.873]   Transparency set
-[17:31:37.882]   Window shown, entering message loop...
-[17:31:39.006]   Message loop iteration 100, isComplete=0
-[17:31:39.374] WndProc: WM_LBUTTONDOWN at (1070,500)
-[17:31:39.374] OnLButtonDown: (1070,500)
-[17:31:39.374]   Capture set, isSelecting=true
-[17:31:40.054]   Message loop iteration 200, isComplete=0
-[17:31:41.086]   Message loop iteration 300, isComplete=0
-[17:31:42.126]   Message loop iteration 400, isComplete=0
-[17:31:43.022]   Message loop iteration 500, isComplete=0
-[17:31:44.487]   Message loop iteration 600, isComplete=0
-[17:31:45.519]   Message loop iteration 700, isComplete=0
-[17:31:46.415]   Message loop iteration 800, isComplete=0
-[17:31:47.431] WndProc: WM_LBUTTONUP at (1258,663)
-[17:31:47.431] OnLButtonUp: (1258,663)
-[17:31:47.432]   Selection complete: L=1070 T=500 R=1258 B=663
-[17:31:47.432]   m_isComplete set to true
-[17:31:47.432]   Message loop exited, loopCount=877, isComplete=1
-[17:31:47.432]   Selected rect: L=1070 T=500 R=1258 B=663
-[17:31:47.432]   Destroying overlay window...
-[17:31:47.435] WndProc: WM_DESTROY
-[17:31:47.436] === Overlay::Show() END, returning 1 ===
+[18:32:16.275] Overlay destructor called
+[18:32:16.284] Overlay destructor completed
+[18:32:26.822] Overlay constructor called
+[18:32:26.822] === Overlay::Show() START ===
+[18:32:26.822]   hInstance=00007ff635880000
+[18:32:26.822]   RegisterClassExW: atom=49863, error=183
+[18:32:26.822]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:32:26.822]   Creating window: size=3840x2160
+[18:32:26.824] WndProc: WM_CREATE
+[18:32:26.824]   Window created: hwnd=000000000010022a
+[18:32:26.910]   Screenshot captured: 3840x2160 in 78ms
+[18:32:26.924]   Backbuffer created: 3840x2160
+[18:32:26.930]   Transparency set
+[18:32:26.936]   Window shown, entering message loop...
+[18:32:28.380] WndProc: WM_LBUTTONDOWN at (595,193)
+[18:32:28.380] OnLButtonDown: (595,193)
+[18:32:28.381]   Capture set, isSelecting=true
+[18:32:28.556]   Message loop iteration 100, isComplete=0
+[18:32:29.551]   Message loop iteration 200, isComplete=0
+[18:32:30.423]   Message loop iteration 300, isComplete=0
+[18:32:31.238]   Message loop iteration 400, isComplete=0
+[18:32:32.717] WndProc: WM_LBUTTONUP at (2083,1234)
+[18:32:32.718] OnLButtonUp: (2083,1234)
+[18:32:32.718]   Selection complete: L=595 T=193 R=2083 B=1234
+[18:32:32.718]   m_isComplete set to true
+[18:32:32.718]   Message loop exited, loopCount=497, isComplete=1
+[18:32:32.718]   Selected rect: L=595 T=193 R=2083 B=1234
+[18:32:32.718]   Destroying overlay window...
+[18:32:32.720] WndProc: WM_DESTROY
+[18:32:32.721] === Overlay::Show() END, returning 1 ===
 
-[17:31:47.462] Overlay destructor called
-[17:31:47.465] Overlay destructor completed
-[17:31:55.962] Overlay constructor called
-[17:31:55.962] === Overlay::Show() START ===
-[17:31:55.962]   hInstance=00007ff671390000
-[17:31:55.962]   RegisterClassExW: atom=49856, error=183
-[17:31:55.962]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:31:55.963]   Creating window: size=3840x2160
-[17:31:55.964] WndProc: WM_CREATE
-[17:31:55.964]   Window created: hwnd=0000000000120592
-[17:31:55.977]   Backbuffer created: 3840x2160
-[17:31:55.982]   Transparency set
-[17:31:55.988]   Window shown, entering message loop...
-[17:31:57.120] WndProc: WM_LBUTTONDOWN at (1078,488)
-[17:31:57.121] OnLButtonDown: (1078,488)
-[17:31:57.121]   Capture set, isSelecting=true
-[17:31:57.296]   Message loop iteration 100, isComplete=0
-[17:32:02.113]   Message loop iteration 200, isComplete=0
-[17:32:03.193]   Message loop iteration 300, isComplete=0
-[17:32:04.809] WndProc: WM_LBUTTONUP at (1345,740)
-[17:32:04.809] OnLButtonUp: (1345,740)
-[17:32:04.810]   Selection complete: L=1078 T=488 R=1345 B=740
-[17:32:04.810]   m_isComplete set to true
-[17:32:04.810]   Message loop exited, loopCount=351, isComplete=1
-[17:32:04.810]   Selected rect: L=1078 T=488 R=1345 B=740
-[17:32:04.810]   Destroying overlay window...
-[17:32:04.812] WndProc: WM_DESTROY
-[17:32:04.813] === Overlay::Show() END, returning 1 ===
+[18:32:32.790] Overlay destructor called
+[18:32:32.798] Overlay destructor completed
+[18:34:09.651] Overlay constructor called
+[18:34:09.651] === Overlay::Show() START ===
+[18:34:09.651]   hInstance=00007ff797700000
+[18:34:09.651]   RegisterClassExW: atom=49853, error=183
+[18:34:09.651]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:34:09.651]   Creating window: size=3840x2160
+[18:34:09.653] WndProc: WM_CREATE
+[18:34:09.653]   Window created: hwnd=00000000002805ac
+[18:34:09.740]   Screenshot captured: 3840x2160 in 78ms
+[18:34:09.753]   Backbuffer created: 3840x2160
+[18:34:09.759]   Transparency set
+[18:34:09.765]   Window shown, entering message loop...
+[18:34:11.033] WndProc: WM_LBUTTONDOWN at (704,382)
+[18:34:11.033] OnLButtonDown: (704,382)
+[18:34:11.033]   Capture set, isSelecting=true
+[18:34:11.233]   Message loop iteration 100, isComplete=0
+[18:34:12.201]   Message loop iteration 200, isComplete=0
+[18:34:13.050]   Message loop iteration 300, isComplete=0
+[18:34:14.145]   Message loop iteration 400, isComplete=0
+[18:34:14.987]   Message loop iteration 500, isComplete=0
+[18:34:15.833]   Message loop iteration 600, isComplete=0
+[18:34:16.682]   Message loop iteration 700, isComplete=0
+[18:34:17.579]   Message loop iteration 800, isComplete=0
+[18:34:18.682]   Message loop iteration 900, isComplete=0
+[18:34:19.650]   Message loop iteration 1000, isComplete=0
+[18:34:20.579]   Message loop iteration 1100, isComplete=0
+[18:34:22.699] WndProc: WM_LBUTTONUP at (1119,1302)
+[18:34:22.699] OnLButtonUp: (1119,1302)
+[18:34:22.699]   Selection complete: L=704 T=382 R=1119 B=1302
+[18:34:22.699]   m_isComplete set to true
+[18:34:22.700]   Message loop exited, loopCount=1138, isComplete=1
+[18:34:22.700]   Selected rect: L=704 T=382 R=1119 B=1302
+[18:34:22.700]   Destroying overlay window...
+[18:34:22.702] WndProc: WM_DESTROY
+[18:34:22.703] === Overlay::Show() END, returning 1 ===
 
-[17:32:04.833] Overlay destructor called
-[17:32:04.837] Overlay destructor completed
-[17:35:20.540] Overlay constructor called
-[17:35:20.540] === Overlay::Show() START ===
-[17:35:20.540]   hInstance=00007ff671390000
-[17:35:20.540]   RegisterClassExW: atom=49722, error=183
-[17:35:20.540]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:35:20.540]   Creating window: size=3840x2160
-[17:35:20.542] WndProc: WM_CREATE
-[17:35:20.542]   Window created: hwnd=0000000000120492
-[17:35:20.555]   Backbuffer created: 3840x2160
-[17:35:20.561]   Transparency set
-[17:35:20.568]   Window shown, entering message loop...
-[17:35:21.650] WndProc: WM_LBUTTONDOWN at (722,444)
-[17:35:21.650] OnLButtonDown: (722,444)
-[17:35:21.650]   Capture set, isSelecting=true
-[17:35:21.906]   Message loop iteration 100, isComplete=0
-[17:35:23.394]   Message loop iteration 200, isComplete=0
-[17:35:24.330]   Message loop iteration 300, isComplete=0
-[17:35:25.234]   Message loop iteration 400, isComplete=0
-[17:35:26.347]   Message loop iteration 500, isComplete=0
-[17:35:27.395]   Message loop iteration 600, isComplete=0
-[17:35:28.123] WndProc: WM_LBUTTONUP at (2472,1253)
-[17:35:28.123] OnLButtonUp: (2472,1253)
-[17:35:28.123]   Selection complete: L=722 T=444 R=2472 B=1253
-[17:35:28.124]   m_isComplete set to true
-[17:35:28.124]   Message loop exited, loopCount=643, isComplete=1
-[17:35:28.124]   Selected rect: L=722 T=444 R=2472 B=1253
-[17:35:28.124]   Destroying overlay window...
-[17:35:28.126] WndProc: WM_DESTROY
-[17:35:28.127] === Overlay::Show() END, returning 1 ===
+[18:34:22.745] Overlay destructor called
+[18:34:22.754] Overlay destructor completed
+[18:34:33.453] Overlay constructor called
+[18:34:33.454] === Overlay::Show() START ===
+[18:34:33.454]   hInstance=00007ff797700000
+[18:34:33.454]   RegisterClassExW: atom=49755, error=183
+[18:34:33.454]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:34:33.454]   Creating window: size=3840x2160
+[18:34:33.455] WndProc: WM_CREATE
+[18:34:33.455]   Window created: hwnd=0000000000200450
+[18:34:33.544]   Screenshot captured: 3840x2160 in 78ms
+[18:34:33.555]   Backbuffer created: 3840x2160
+[18:34:33.561]   Transparency set
+[18:34:33.566]   Window shown, entering message loop...
+[18:34:35.084] WndProc: WM_LBUTTONDOWN at (969,292)
+[18:34:35.084] OnLButtonDown: (969,292)
+[18:34:35.084]   Capture set, isSelecting=true
+[18:34:35.188]   Message loop iteration 100, isComplete=0
+[18:34:36.174]   Message loop iteration 200, isComplete=0
+[18:34:37.365]   Message loop iteration 300, isComplete=0
+[18:34:39.309]   Message loop iteration 400, isComplete=0
+[18:34:40.325]   Message loop iteration 500, isComplete=0
+[18:34:41.519]   Message loop iteration 600, isComplete=0
+[18:34:44.170]   Message loop iteration 700, isComplete=0
+[18:34:45.191]   Message loop iteration 800, isComplete=0
+[18:34:47.478]   Message loop iteration 900, isComplete=0
+[18:34:47.919] WndProc: WM_LBUTTONUP at (1775,1079)
+[18:34:47.919] OnLButtonUp: (1775,1079)
+[18:34:47.919]   Selection complete: L=969 T=292 R=1775 B=1079
+[18:34:47.920]   m_isComplete set to true
+[18:34:47.920]   Message loop exited, loopCount=940, isComplete=1
+[18:34:47.920]   Selected rect: L=969 T=292 R=1775 B=1079
+[18:34:47.920]   Destroying overlay window...
+[18:34:47.922] WndProc: WM_DESTROY
+[18:34:47.922] === Overlay::Show() END, returning 1 ===
 
-[17:35:28.187] Overlay destructor called
-[17:35:28.191] Overlay destructor completed
-[17:37:11.050] Overlay constructor called
-[17:37:11.050] === Overlay::Show() START ===
-[17:37:11.050]   hInstance=00007ff671390000
-[17:37:11.050]   RegisterClassExW: atom=49840, error=183
-[17:37:11.050]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:37:11.051]   Creating window: size=3840x2160
-[17:37:11.052] WndProc: WM_CREATE
-[17:37:11.052]   Window created: hwnd=000000000016037c
-[17:37:11.065]   Backbuffer created: 3840x2160
-[17:37:11.070]   Transparency set
-[17:37:11.076]   Window shown, entering message loop...
-[17:37:11.608] WndProc: WM_LBUTTONDOWN at (1159,496)
-[17:37:11.608] OnLButtonDown: (1159,496)
-[17:37:11.608]   Capture set, isSelecting=true
-[17:37:12.208]   Message loop iteration 100, isComplete=0
-[17:37:12.448] WndProc: WM_LBUTTONUP at (2234,1039)
-[17:37:12.448] OnLButtonUp: (2234,1039)
-[17:37:12.448]   Selection complete: L=1159 T=496 R=2234 B=1039
-[17:37:12.449]   m_isComplete set to true
-[17:37:12.449]   Message loop exited, loopCount=115, isComplete=1
-[17:37:12.449]   Selected rect: L=1159 T=496 R=2234 B=1039
-[17:37:12.449]   Destroying overlay window...
-[17:37:12.451] WndProc: WM_DESTROY
-[17:37:12.452] === Overlay::Show() END, returning 1 ===
+[18:34:47.952] Overlay destructor called
+[18:34:47.960] Overlay destructor completed
+[18:36:36.869] Overlay constructor called
+[18:36:36.870] === Overlay::Show() START ===
+[18:36:36.870]   hInstance=00007ff717950000
+[18:36:36.870]   RegisterClassExW: atom=49865, error=183
+[18:36:36.870]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:36:36.870]   Creating window: size=3840x2160
+[18:36:36.871] WndProc: WM_CREATE
+[18:36:36.871]   Window created: hwnd=000000000014022a
+[18:36:36.956]   Screenshot captured: 3840x2160 in 78ms
+[18:36:36.970]   Backbuffer created: 3840x2160
+[18:36:36.976]   Transparency set
+[18:36:36.983]   Window shown, entering message loop...
+[18:36:38.428]   Message loop iteration 100, isComplete=0
+[18:36:40.188] WndProc: WM_LBUTTONDOWN at (786,320)
+[18:36:40.188] OnLButtonDown: (786,320)
+[18:36:40.189]   Capture set, isSelecting=true
+[18:36:40.428]   Message loop iteration 200, isComplete=0
+[18:36:41.685]   Message loop iteration 300, isComplete=0
+[18:36:42.741] WndProc: WM_LBUTTONUP at (1688,1027)
+[18:36:42.741] OnLButtonUp: (1688,1027)
+[18:36:42.741]   Selection complete: L=786 T=320 R=1688 B=1027
+[18:36:42.741]   m_isComplete set to true
+[18:36:42.742]   Message loop exited, loopCount=342, isComplete=1
+[18:36:42.742]   Selected rect: L=786 T=320 R=1688 B=1027
+[18:36:42.742]   Destroying overlay window...
+[18:36:42.744] WndProc: WM_DESTROY
+[18:36:42.745] === Overlay::Show() END, returning 1 ===
 
-[17:37:12.489] Overlay destructor called
-[17:37:12.493] Overlay destructor completed
-[17:39:49.901] Overlay constructor called
-[17:39:49.901] === Overlay::Show() START ===
-[17:39:49.901]   hInstance=00007ff671390000
-[17:39:49.902]   RegisterClassExW: atom=49840, error=183
-[17:39:49.902]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:39:49.902]   Creating window: size=3840x2160
-[17:39:49.903] WndProc: WM_CREATE
-[17:39:49.903]   Window created: hwnd=00000000000e04ae
-[17:39:49.916]   Backbuffer created: 3840x2160
-[17:39:49.921]   Transparency set
-[17:39:49.928]   Window shown, entering message loop...
-[17:39:50.556] WndProc: WM_LBUTTONDOWN at (1051,548)
-[17:39:50.556] OnLButtonDown: (1051,548)
-[17:39:50.556]   Capture set, isSelecting=true
-[17:39:51.180]   Message loop iteration 100, isComplete=0
-[17:39:52.340]   Message loop iteration 200, isComplete=0
-[17:39:52.436] WndProc: WM_LBUTTONUP at (2383,1219)
-[17:39:52.436] OnLButtonUp: (2383,1219)
-[17:39:52.436]   Selection complete: L=1051 T=548 R=2383 B=1219
-[17:39:52.437]   m_isComplete set to true
-[17:39:52.437]   Message loop exited, loopCount=208, isComplete=1
-[17:39:52.437]   Selected rect: L=1051 T=548 R=2383 B=1219
-[17:39:52.437]   Destroying overlay window...
-[17:39:52.439] WndProc: WM_DESTROY
-[17:39:52.441] === Overlay::Show() END, returning 1 ===
+[18:36:42.801] Overlay destructor called
+[18:36:42.810] Overlay destructor completed
+[18:36:51.855] Overlay constructor called
+[18:36:51.855] === Overlay::Show() START ===
+[18:36:51.856]   hInstance=00007ff717950000
+[18:36:51.856]   RegisterClassExW: atom=49866, error=183
+[18:36:51.856]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:36:51.856]   Creating window: size=3840x2160
+[18:36:51.857] WndProc: WM_CREATE
+[18:36:51.858]   Window created: hwnd=000000000029065a
+[18:36:51.945]   Screenshot captured: 3840x2160 in 78ms
+[18:36:51.960]   Backbuffer created: 3840x2160
+[18:36:51.966]   Transparency set
+[18:36:51.974]   Window shown, entering message loop...
+[18:36:52.790] WndProc: WM_LBUTTONDOWN at (857,420)
+[18:36:52.791] OnLButtonDown: (857,420)
+[18:36:52.791]   Capture set, isSelecting=true
+[18:36:53.246]   Message loop iteration 100, isComplete=0
+[18:36:54.054]   Message loop iteration 200, isComplete=0
+[18:36:54.942]   Message loop iteration 300, isComplete=0
+[18:36:55.799]   Message loop iteration 400, isComplete=0
+[18:36:56.656]   Message loop iteration 500, isComplete=0
+[18:36:58.016]   Message loop iteration 600, isComplete=0
+[18:36:59.343] WndProc: WM_LBUTTONUP at (1795,1107)
+[18:36:59.343] OnLButtonUp: (1795,1107)
+[18:36:59.344]   Selection complete: L=857 T=420 R=1795 B=1107
+[18:36:59.344]   m_isComplete set to true
+[18:36:59.344]   Message loop exited, loopCount=699, isComplete=1
+[18:36:59.344]   Selected rect: L=857 T=420 R=1795 B=1107
+[18:36:59.344]   Destroying overlay window...
+[18:36:59.346] WndProc: WM_DESTROY
+[18:36:59.347] === Overlay::Show() END, returning 1 ===
 
-[17:39:52.502] Overlay destructor called
-[17:39:52.507] Overlay destructor completed
-[17:43:32.033] Overlay constructor called
-[17:43:32.034] === Overlay::Show() START ===
-[17:43:32.034]   hInstance=00007ff6a8d70000
-[17:43:32.034]   RegisterClassExW: atom=49854, error=183
-[17:43:32.034]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:43:32.034]   Creating window: size=3840x2160
-[17:43:32.035] WndProc: WM_CREATE
-[17:43:32.035]   Window created: hwnd=000000000008066a
-[17:43:32.048]   Backbuffer created: 3840x2160
-[17:43:32.053]   Transparency set
-[17:43:32.060]   Window shown, entering message loop...
-[17:43:32.856] WndProc: WM_LBUTTONDOWN at (1265,537)
-[17:43:32.856] OnLButtonDown: (1265,537)
-[17:43:32.856]   Capture set, isSelecting=true
-[17:43:33.696]   Message loop iteration 100, isComplete=0
-[17:43:34.912]   Message loop iteration 200, isComplete=0
-[17:43:36.176]   Message loop iteration 300, isComplete=0
-[17:43:38.313] WndProc: WM_LBUTTONUP at (2443,1197)
-[17:43:38.313] OnLButtonUp: (2443,1197)
-[17:43:38.313]   Selection complete: L=1265 T=537 R=2443 B=1197
-[17:43:38.314]   m_isComplete set to true
-[17:43:38.314]   Message loop exited, loopCount=373, isComplete=1
-[17:43:38.314]   Selected rect: L=1265 T=537 R=2443 B=1197
-[17:43:38.314]   Destroying overlay window...
-[17:43:38.316] WndProc: WM_DESTROY
-[17:43:38.317] === Overlay::Show() END, returning 1 ===
+[18:36:59.392] Overlay destructor called
+[18:36:59.398] Overlay destructor completed
+[18:39:29.683] Overlay constructor called
+[18:39:29.683] === Overlay::Show() START ===
+[18:39:29.683]   hInstance=00007ff79ab80000
+[18:39:29.684]   RegisterClassExW: atom=49847, error=183
+[18:39:29.684]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:39:29.684]   Creating window: size=3840x2160
+[18:39:29.685] WndProc: WM_CREATE
+[18:39:29.685]   Window created: hwnd=00000000000f05e6
+[18:39:29.772]   Screenshot captured: 3840x2160 in 62ms
+[18:39:29.785]   Backbuffer created: 3840x2160
+[18:39:29.791]   Transparency set
+[18:39:29.797]   Window shown, entering message loop...
+[18:39:30.546] WndProc: WM_LBUTTONDOWN at (1224,473)
+[18:39:30.546] OnLButtonDown: (1224,473)
+[18:39:30.546]   Capture set, isSelecting=true
+[18:39:30.961]   Message loop iteration 100, isComplete=0
+[18:39:31.843]   Message loop iteration 200, isComplete=0
+[18:39:32.747]   Message loop iteration 300, isComplete=0
+[18:39:33.779]   Message loop iteration 400, isComplete=0
+[18:39:35.075]   Message loop iteration 500, isComplete=0
+[18:39:36.036]   Message loop iteration 600, isComplete=0
+[18:39:36.923]   Message loop iteration 700, isComplete=0
+[18:39:37.795]   Message loop iteration 800, isComplete=0
+[18:39:37.955] WndProc: WM_LBUTTONUP at (2552,1239)
+[18:39:37.955] OnLButtonUp: (2552,1239)
+[18:39:37.955]   Selection complete: L=1224 T=473 R=2552 B=1239
+[18:39:37.955]   m_isComplete set to true
+[18:39:37.955]   Message loop exited, loopCount=810, isComplete=1
+[18:39:37.955]   Selected rect: L=1224 T=473 R=2552 B=1239
+[18:39:37.955]   Destroying overlay window...
+[18:39:37.957] WndProc: WM_DESTROY
+[18:39:37.958] === Overlay::Show() END, returning 1 ===
 
-[17:43:38.362] Overlay destructor called
-[17:43:38.366] Overlay destructor completed
-[17:43:45.179] Overlay constructor called
-[17:43:45.179] === Overlay::Show() START ===
-[17:43:45.180]   hInstance=00007ff6a8d70000
-[17:43:45.180]   RegisterClassExW: atom=49854, error=183
-[17:43:45.180]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:43:45.180]   Creating window: size=3840x2160
-[17:43:45.181] WndProc: WM_CREATE
-[17:43:45.181]   Window created: hwnd=0000000000170492
-[17:43:45.194]   Backbuffer created: 3840x2160
-[17:43:45.199]   Transparency set
-[17:43:45.206]   Window shown, entering message loop...
-[17:43:46.250] WndProc: WM_LBUTTONDOWN at (0,0)
-[17:43:46.250] OnLButtonDown: (0,0)
-[17:43:46.250]   Capture set, isSelecting=true
-[17:43:46.618]   Message loop iteration 100, isComplete=0
-[17:43:47.721]   Message loop iteration 200, isComplete=0
-[17:43:48.673]   Message loop iteration 300, isComplete=0
-[17:43:49.595] WndProc: WM_LBUTTONUP at (79,2076)
-[17:43:49.595] OnLButtonUp: (79,2076)
-[17:43:49.595]   Selection complete: L=0 T=0 R=79 B=2076
-[17:43:49.595]   m_isComplete set to true
-[17:43:49.595]   Message loop exited, loopCount=366, isComplete=1
-[17:43:49.595]   Selected rect: L=0 T=0 R=79 B=2076
-[17:43:49.595]   Destroying overlay window...
-[17:43:49.597] WndProc: WM_DESTROY
-[17:43:49.598] === Overlay::Show() END, returning 1 ===
+[18:39:38.026] Overlay destructor called
+[18:39:38.036] Overlay destructor completed
+[18:39:56.871] Overlay constructor called
+[18:39:56.871] === Overlay::Show() START ===
+[18:39:56.871]   hInstance=00007ff79ab80000
+[18:39:56.871]   RegisterClassExW: atom=49816, error=183
+[18:39:56.871]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:39:56.871]   Creating window: size=3840x2160
+[18:39:56.873] WndProc: WM_CREATE
+[18:39:56.873]   Window created: hwnd=0000000000130478
+[18:39:56.954]   Screenshot captured: 3840x2160 in 78ms
+[18:39:56.966]   Backbuffer created: 3840x2160
+[18:39:56.971]   Transparency set
+[18:39:56.977]   Window shown, entering message loop...
+[18:39:57.670] WndProc: WM_LBUTTONDOWN at (1261,442)
+[18:39:57.670] OnLButtonDown: (1261,442)
+[18:39:57.671]   Capture set, isSelecting=true
+[18:39:58.015]   Message loop iteration 100, isComplete=0
+[18:40:00.526]   Message loop iteration 200, isComplete=0
+[18:40:01.910]   Message loop iteration 300, isComplete=0
+[18:40:02.558] WndProc: WM_LBUTTONUP at (1627,998)
+[18:40:02.558] OnLButtonUp: (1627,998)
+[18:40:02.558]   Selection complete: L=1261 T=442 R=1627 B=998
+[18:40:02.558]   m_isComplete set to true
+[18:40:02.559]   Message loop exited, loopCount=362, isComplete=1
+[18:40:02.559]   Selected rect: L=1261 T=442 R=1627 B=998
+[18:40:02.559]   Destroying overlay window...
+[18:40:02.561] WndProc: WM_DESTROY
+[18:40:02.562] === Overlay::Show() END, returning 1 ===
 
-[17:43:49.647] Overlay destructor called
-[17:43:49.649] Overlay destructor completed
-[17:48:57.066] Overlay constructor called
-[17:48:57.067] === Overlay::Show() START ===
-[17:48:57.067]   hInstance=00007ff6bd4f0000
-[17:48:57.067]   RegisterClassExW: atom=49823, error=183
-[17:48:57.067]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:48:57.067]   Creating window: size=3840x2160
-[17:48:57.068] WndProc: WM_CREATE
-[17:48:57.068]   Window created: hwnd=00000000001703e4
-[17:48:57.081]   Backbuffer created: 3840x2160
-[17:48:57.086]   Transparency set
-[17:48:57.093]   Window shown, entering message loop...
-[17:48:58.313] WndProc: WM_LBUTTONDOWN at (1141,524)
-[17:48:58.313] OnLButtonDown: (1141,524)
-[17:48:58.314]   Capture set, isSelecting=true
-[17:48:58.517]   Message loop iteration 100, isComplete=0
-[17:48:58.849] WndProc: WM_LBUTTONUP at (2017,1027)
-[17:48:58.849] OnLButtonUp: (2017,1027)
-[17:48:58.849]   Selection complete: L=1141 T=524 R=2017 B=1027
-[17:48:58.849]   m_isComplete set to true
-[17:48:58.850]   Message loop exited, loopCount=118, isComplete=1
-[17:48:58.850]   Selected rect: L=1141 T=524 R=2017 B=1027
-[17:48:58.850]   Destroying overlay window...
-[17:48:58.852] WndProc: WM_DESTROY
-[17:48:58.853] === Overlay::Show() END, returning 1 ===
+[18:40:02.595] Overlay destructor called
+[18:40:02.603] Overlay destructor completed
+[18:40:06.800] Overlay constructor called
+[18:40:06.801] === Overlay::Show() START ===
+[18:40:06.801]   hInstance=00007ff79ab80000
+[18:40:06.801]   RegisterClassExW: atom=49816, error=183
+[18:40:06.801]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:40:06.801]   Creating window: size=3840x2160
+[18:40:06.802] WndProc: WM_CREATE
+[18:40:06.802]   Window created: hwnd=0000000000160478
+[18:40:06.884]   Screenshot captured: 3840x2160 in 63ms
+[18:40:06.897]   Backbuffer created: 3840x2160
+[18:40:06.903]   Transparency set
+[18:40:06.909]   Window shown, entering message loop...
+[18:40:07.767] WndProc: WM_LBUTTONDOWN at (1212,473)
+[18:40:07.767] OnLButtonDown: (1212,473)
+[18:40:07.767]   Capture set, isSelecting=true
+[18:40:08.103]   Message loop iteration 100, isComplete=0
+[18:40:09.095]   Message loop iteration 200, isComplete=0
+[18:40:10.535]   Message loop iteration 300, isComplete=0
+[18:40:12.216]   Message loop iteration 400, isComplete=0
+[18:40:13.119]   Message loop iteration 500, isComplete=0
+[18:40:14.159]   Message loop iteration 600, isComplete=0
+[18:40:15.200]   Message loop iteration 700, isComplete=0
+[18:40:16.191]   Message loop iteration 800, isComplete=0
+[18:40:17.192]   Message loop iteration 900, isComplete=0
+[18:40:18.257]   Message loop iteration 1000, isComplete=0
+[18:40:19.170]   Message loop iteration 1100, isComplete=0
+[18:40:20.251]   Message loop iteration 1200, isComplete=0
+[18:40:21.456]   Message loop iteration 1300, isComplete=0
+[18:40:22.611]   Message loop iteration 1400, isComplete=0
+[18:40:23.409]   Message loop iteration 1500, isComplete=0
+[18:40:24.578]   Message loop iteration 1600, isComplete=0
+[18:40:26.106]   Message loop iteration 1700, isComplete=0
+[18:40:27.297] WndProc: WM_LBUTTONUP at (1991,963)
+[18:40:27.298] OnLButtonUp: (1991,963)
+[18:40:27.298]   Selection complete: L=1212 T=473 R=1991 B=963
+[18:40:27.298]   m_isComplete set to true
+[18:40:27.298]   Message loop exited, loopCount=1764, isComplete=1
+[18:40:27.298]   Selected rect: L=1212 T=473 R=1991 B=963
+[18:40:27.298]   Destroying overlay window...
+[18:40:27.300] WndProc: WM_DESTROY
+[18:40:27.301] === Overlay::Show() END, returning 1 ===
 
-[17:48:58.879] Overlay destructor called
-[17:48:58.882] Overlay destructor completed
-[17:49:03.699] Overlay constructor called
-[17:49:03.700] === Overlay::Show() START ===
-[17:49:03.700]   hInstance=00007ff6bd4f0000
-[17:49:03.700]   RegisterClassExW: atom=49823, error=183
-[17:49:03.700]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:49:03.700]   Creating window: size=3840x2160
-[17:49:03.701] WndProc: WM_CREATE
-[17:49:03.701]   Window created: hwnd=0000000000280368
-[17:49:03.714]   Backbuffer created: 3840x2160
-[17:49:03.719]   Transparency set
-[17:49:03.726]   Window shown, entering message loop...
-[17:49:04.578] WndProc: WM_LBUTTONDOWN at (1178,569)
-[17:49:04.578] OnLButtonDown: (1178,569)
-[17:49:04.579]   Capture set, isSelecting=true
-[17:49:04.770]   Message loop iteration 100, isComplete=0
-[17:49:05.314] WndProc: WM_LBUTTONUP at (2118,1172)
-[17:49:05.314] OnLButtonUp: (2118,1172)
-[17:49:05.314]   Selection complete: L=1178 T=569 R=2118 B=1172
-[17:49:05.315]   m_isComplete set to true
-[17:49:05.315]   Message loop exited, loopCount=150, isComplete=1
-[17:49:05.315]   Selected rect: L=1178 T=569 R=2118 B=1172
-[17:49:05.315]   Destroying overlay window...
-[17:49:05.317] WndProc: WM_DESTROY
-[17:49:05.318] === Overlay::Show() END, returning 1 ===
+[18:40:27.344] Overlay destructor called
+[18:40:27.352] Overlay destructor completed
+[18:40:34.244] Overlay constructor called
+[18:40:34.244] === Overlay::Show() START ===
+[18:40:34.244]   hInstance=00007ff79ab80000
+[18:40:34.244]   RegisterClassExW: atom=49816, error=183
+[18:40:34.244]   Virtual screen: L=0 T=0 R=3840 B=2160
+[18:40:34.244]   Creating window: size=3840x2160
+[18:40:34.246] WndProc: WM_CREATE
+[18:40:34.246]   Window created: hwnd=000000000044054c
+[18:40:34.328]   Screenshot captured: 3840x2160 in 78ms
+[18:40:34.342]   Backbuffer created: 3840x2160
+[18:40:34.347]   Transparency set
+[18:40:34.354]   Window shown, entering message loop...
+[18:40:35.482]   Message loop iteration 100, isComplete=0
+[18:40:35.859] WndProc: WM_LBUTTONDOWN at (1320,337)
+[18:40:35.859] OnLButtonDown: (1320,337)
+[18:40:35.859]   Capture set, isSelecting=true
+[18:40:36.554]   Message loop iteration 200, isComplete=0
+[18:40:37.563]   Message loop iteration 300, isComplete=0
+[18:40:38.458]   Message loop iteration 400, isComplete=0
+[18:40:39.702]   Message loop iteration 500, isComplete=0
+[18:40:40.451] WndProc: WM_LBUTTONUP at (2245,1406)
+[18:40:40.451] OnLButtonUp: (2245,1406)
+[18:40:40.451]   Selection complete: L=1320 T=337 R=2245 B=1406
+[18:40:40.452]   m_isComplete set to true
+[18:40:40.452]   Message loop exited, loopCount=576, isComplete=1
+[18:40:40.452]   Selected rect: L=1320 T=337 R=2245 B=1406
+[18:40:40.452]   Destroying overlay window...
+[18:40:40.454] WndProc: WM_DESTROY
+[18:40:40.455] === Overlay::Show() END, returning 1 ===
 
-[17:49:05.344] Overlay destructor called
-[17:49:05.348] Overlay destructor completed
-[17:52:33.214] Overlay constructor called
-[17:52:33.214] === Overlay::Show() START ===
-[17:52:33.214]   hInstance=00007ff79cb00000
-[17:52:33.214]   RegisterClassExW: atom=49823, error=183
-[17:52:33.214]   Virtual screen: L=0 T=0 R=3840 B=2160
-[17:52:33.214]   Creating window: size=3840x2160
-[17:52:33.215] WndProc: WM_CREATE
-[17:52:33.216]   Window created: hwnd=00000000000e048a
-[17:52:33.228]   Backbuffer created: 3840x2160
-[17:52:33.233]   Transparency set
-[17:52:33.244]   Window shown, entering message loop...
-[17:52:34.101] WndProc: WM_LBUTTONDOWN at (1241,396)
-[17:52:34.101] OnLButtonDown: (1241,396)
-[17:52:34.101]   Capture set, isSelecting=true
-[17:52:35.474]   Message loop iteration 100, isComplete=0
-[17:52:36.947]   Message loop iteration 200, isComplete=0
-[17:52:38.364]   Message loop iteration 300, isComplete=0
-[17:52:39.684]   Message loop iteration 400, isComplete=0
-[17:52:40.246] WndProc: WM_LBUTTONUP at (2722,1305)
-[17:52:40.246] OnLButtonUp: (2722,1305)
-[17:52:40.246]   Selection complete: L=1241 T=396 R=2722 B=1305
-[17:52:40.246]   m_isComplete set to true
-[17:52:40.246]   Message loop exited, loopCount=440, isComplete=1
-[17:52:40.246]   Selected rect: L=1241 T=396 R=2722 B=1305
-[17:52:40.246]   Destroying overlay window...
-[17:52:40.248] WndProc: WM_DESTROY
-[17:52:40.249] === Overlay::Show() END, returning 1 ===
-
-[17:52:40.281] Overlay destructor called
-[17:52:40.285] Overlay destructor completed
-[18:03:17.824] Overlay constructor called
-[18:03:17.824] === Overlay::Show() START ===
-[18:03:17.824]   hInstance=00007ff79f410000
-[18:03:17.824]   RegisterClassExW: atom=49823, error=183
-[18:03:17.825]   Virtual screen: L=0 T=0 R=3840 B=2160
-[18:03:17.825]   Creating window: size=3840x2160
-[18:03:17.826] WndProc: WM_CREATE
-[18:03:17.827]   Window created: hwnd=00000000001605ac
-[18:03:17.845]   Backbuffer created: 3840x2160
-[18:03:17.853]   Transparency set
-[18:03:17.860]   Window shown, entering message loop...
-[18:03:18.478] WndProc: WM_LBUTTONDOWN at (1035,626)
-[18:03:18.479] OnLButtonDown: (1035,626)
-[18:03:18.479]   Capture set, isSelecting=true
-[18:03:19.238] WndProc: WM_LBUTTONUP at (2127,1165)
-[18:03:19.239] OnLButtonUp: (2127,1165)
-[18:03:19.239]   Selection complete: L=1035 T=626 R=2127 B=1165
-[18:03:19.239]   m_isComplete set to true
-[18:03:19.239]   Message loop exited, loopCount=98, isComplete=1
-[18:03:19.239]   Selected rect: L=1035 T=626 R=2127 B=1165
-[18:03:19.239]   Destroying overlay window...
-[18:03:19.241] WndProc: WM_DESTROY
-[18:03:19.242] === Overlay::Show() END, returning 1 ===
-
-[18:03:19.267] Overlay destructor called
-[18:03:19.271] Overlay destructor completed
-[18:06:03.933] Overlay constructor called
-[18:06:03.933] === Overlay::Show() START ===
-[18:06:03.933]   hInstance=00007ff675150000
-[18:06:03.933]   RegisterClassExW: atom=49816, error=183
-[18:06:03.933]   Virtual screen: L=0 T=0 R=3840 B=2160
-[18:06:03.933]   Creating window: size=3840x2160
-[18:06:03.934] WndProc: WM_CREATE
-[18:06:03.935]   Window created: hwnd=0000000000250492
-[18:06:03.947]   Backbuffer created: 3840x2160
-[18:06:03.953]   Transparency set
-[18:06:03.959]   Window shown, entering message loop...
-[18:06:04.619] WndProc: WM_LBUTTONDOWN at (880,583)
-[18:06:04.619] OnLButtonDown: (880,583)
-[18:06:04.619]   Capture set, isSelecting=true
-[18:06:04.971]   Message loop iteration 100, isComplete=0
-[18:06:05.372] WndProc: WM_LBUTTONUP at (1702,1136)
-[18:06:05.372] OnLButtonUp: (1702,1136)
-[18:06:05.372]   Selection complete: L=880 T=583 R=1702 B=1136
-[18:06:05.372]   m_isComplete set to true
-[18:06:05.373]   Message loop exited, loopCount=118, isComplete=1
-[18:06:05.373]   Selected rect: L=880 T=583 R=1702 B=1136
-[18:06:05.373]   Destroying overlay window...
-[18:06:05.375] WndProc: WM_DESTROY
-[18:06:05.376] === Overlay::Show() END, returning 1 ===
-
-[18:06:05.415] Overlay destructor called
-[18:06:05.420] Overlay destructor completed
-[18:11:07.932] Overlay constructor called
-[18:11:07.932] === Overlay::Show() START ===
-[18:11:07.932]   hInstance=00007ff78b1f0000
-[18:11:07.932]   RegisterClassExW: atom=49854, error=183
-[18:11:07.932]   Virtual screen: L=0 T=0 R=3840 B=2160
-[18:11:07.933]   Creating window: size=3840x2160
-[18:11:07.934] WndProc: WM_CREATE
-[18:11:07.934]   Window created: hwnd=000000000033054c
-[18:11:07.948]   Backbuffer created: 3840x2160
-[18:11:07.953]   Transparency set
-[18:11:07.964]   Window shown, entering message loop...
-[18:11:08.674] WndProc: WM_LBUTTONDOWN at (1057,555)
-[18:11:08.674] OnLButtonDown: (1057,555)
-[18:11:08.674]   Capture set, isSelecting=true
-[18:11:09.210]   Message loop iteration 100, isComplete=0
-[18:11:10.226]   Message loop iteration 200, isComplete=0
-[18:11:11.482]   Message loop iteration 300, isComplete=0
-[18:11:12.586]   Message loop iteration 400, isComplete=0
-[18:11:13.515]   Message loop iteration 500, isComplete=0
-[18:11:13.818] WndProc: WM_LBUTTONUP at (2303,1234)
-[18:11:13.818] OnLButtonUp: (2303,1234)
-[18:11:13.818]   Selection complete: L=1057 T=555 R=2303 B=1234
-[18:11:13.818]   m_isComplete set to true
-[18:11:13.819]   Message loop exited, loopCount=521, isComplete=1
-[18:11:13.819]   Selected rect: L=1057 T=555 R=2303 B=1234
-[18:11:13.819]   Destroying overlay window...
-[18:11:13.821] WndProc: WM_DESTROY
-[18:11:13.822] === Overlay::Show() END, returning 1 ===
-
-[18:11:13.875] Overlay destructor called
-[18:11:13.878] Overlay destructor completed
-[18:11:18.117] Overlay constructor called
-[18:11:18.117] === Overlay::Show() START ===
-[18:11:18.117]   hInstance=00007ff78b1f0000
-[18:11:18.117]   RegisterClassExW: atom=49854, error=183
-[18:11:18.117]   Virtual screen: L=0 T=0 R=3840 B=2160
-[18:11:18.117]   Creating window: size=3840x2160
-[18:11:18.119] WndProc: WM_CREATE
-[18:11:18.119]   Window created: hwnd=00000000003b0636
-[18:11:18.132]   Backbuffer created: 3840x2160
-[18:11:18.137]   Transparency set
-[18:11:18.148]   Window shown, entering message loop...
-[18:11:19.435]   Message loop iteration 100, isComplete=0
-[18:11:20.571]   Message loop iteration 200, isComplete=0
-[18:11:22.236] WndProc: WM_LBUTTONDOWN at (0,0)
-[18:11:22.236] OnLButtonDown: (0,0)
-[18:11:22.237]   Capture set, isSelecting=true
-[18:11:22.237]   Message loop iteration 300, isComplete=0
-[18:11:23.188]   Message loop iteration 400, isComplete=0
-[18:11:24.316] WndProc: WM_LBUTTONUP at (76,2074)
-[18:11:24.317] OnLButtonUp: (76,2074)
-[18:11:24.317]   Selection complete: L=0 T=0 R=76 B=2074
-[18:11:24.317]   m_isComplete set to true
-[18:11:24.317]   Message loop exited, loopCount=441, isComplete=1
-[18:11:24.317]   Selected rect: L=0 T=0 R=76 B=2074
-[18:11:24.317]   Destroying overlay window...
-[18:11:24.319] WndProc: WM_DESTROY
-[18:11:24.321] === Overlay::Show() END, returning 1 ===
-
-[18:11:24.356] Overlay destructor called
-[18:11:24.361] Overlay destructor completed
-[18:11:31.391] Overlay constructor called
-[18:11:31.391] === Overlay::Show() START ===
-[18:11:31.391]   hInstance=00007ff78b1f0000
-[18:11:31.391]   RegisterClassExW: atom=49858, error=183
-[18:11:31.391]   Virtual screen: L=0 T=0 R=3840 B=2160
-[18:11:31.391]   Creating window: size=3840x2160
-[18:11:31.392] WndProc: WM_CREATE
-[18:11:31.393]   Window created: hwnd=0000000000400636
-[18:11:31.405]   Backbuffer created: 3840x2160
-[18:11:31.411]   Transparency set
-[18:11:31.421]   Window shown, entering message loop...
-[18:11:32.373]   Message loop iteration 100, isComplete=0
-[18:11:32.685] WndProc: WM_LBUTTONDOWN at (624,363)
-[18:11:32.685] OnLButtonDown: (624,363)
-[18:11:32.686]   Capture set, isSelecting=true
-[18:11:33.518]   Message loop iteration 200, isComplete=0
-[18:11:34.325]   Message loop iteration 300, isComplete=0
-[18:11:35.293]   Message loop iteration 400, isComplete=0
-[18:11:36.197]   Message loop iteration 500, isComplete=0
-[18:11:37.174]   Message loop iteration 600, isComplete=0
-[18:11:38.182]   Message loop iteration 700, isComplete=0
-[18:11:39.166]   Message loop iteration 800, isComplete=0
-[18:11:40.574] WndProc: WM_LBUTTONUP at (1772,644)
-[18:11:40.574] OnLButtonUp: (1772,644)
-[18:11:40.574]   Selection complete: L=624 T=363 R=1772 B=644
-[18:11:40.575]   m_isComplete set to true
-[18:11:40.575]   Message loop iteration 900, isComplete=1
-[18:11:40.575]   Message loop exited, loopCount=900, isComplete=1
-[18:11:40.575]   Selected rect: L=624 T=363 R=1772 B=644
-[18:11:40.575]   Destroying overlay window...
-[18:11:40.577] WndProc: WM_DESTROY
-[18:11:40.578] === Overlay::Show() END, returning 1 ===
-
-[18:11:40.610] Overlay destructor called
-[18:11:40.613] Overlay destructor completed
+[18:40:40.514] Overlay destructor called
+[18:40:40.522] Overlay destructor completed

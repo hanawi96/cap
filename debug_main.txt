@@ -1,173 +1,108 @@
-[17:30:18.211] === Application Starting ===
-[17:30:18.215] WM_CREATE: hwnd=000000000033056c
-[17:30:18.231]   Initialization complete
-[17:30:18.231] Main window created: hwnd=000000000033056c
-[17:30:18.232] Entering message loop...
-[17:30:28.238] WM_COMMAND: id=1003
-[17:30:28.238]   MENU_CAPTURE_REGION: Creating overlay...
-[17:30:28.238]   Calling overlay.Show()...
-[17:30:30.122]   Overlay returned false (cancelled)
-[17:30:30.122]   MENU_CAPTURE_REGION completed
-[17:30:37.840] WM_COMMAND: id=1001
-[17:30:59.594] WM_COMMAND: id=1003
-[17:30:59.594]   MENU_CAPTURE_REGION: Creating overlay...
-[17:30:59.594]   Calling overlay.Show()...
-[17:31:00.909]   Overlay returned true, rect: L=956 T=429 R=2276 B=1271
-[17:31:00.960]   CaptureRegion returned
-[17:31:00.960]   MENU_CAPTURE_REGION completed
-[17:31:20.597] WM_COMMAND: id=1003
-[17:31:20.598]   MENU_CAPTURE_REGION: Creating overlay...
-[17:31:20.598]   Calling overlay.Show()...
-[17:31:22.319]   Overlay returned true, rect: L=1068 T=471 R=1308 B=728
-[17:31:22.346]   CaptureRegion returned
-[17:31:22.347]   MENU_CAPTURE_REGION completed
-[17:31:37.847] WM_COMMAND: id=1003
-[17:31:37.847]   MENU_CAPTURE_REGION: Creating overlay...
-[17:31:37.847]   Calling overlay.Show()...
-[17:31:47.436]   Overlay returned true, rect: L=1070 T=500 R=1258 B=663
-[17:31:47.462]   CaptureRegion returned
-[17:31:47.462]   MENU_CAPTURE_REGION completed
-[17:31:55.961] WM_COMMAND: id=1003
-[17:31:55.962]   MENU_CAPTURE_REGION: Creating overlay...
-[17:31:55.962]   Calling overlay.Show()...
-[17:32:04.813]   Overlay returned true, rect: L=1078 T=488 R=1345 B=740
-[17:32:04.833]   CaptureRegion returned
-[17:32:04.833]   MENU_CAPTURE_REGION completed
-[17:35:20.540] WM_COMMAND: id=1003
-[17:35:20.540]   MENU_CAPTURE_REGION: Creating overlay...
-[17:35:20.540]   Calling overlay.Show()...
-[17:35:28.127]   Overlay returned true, rect: L=722 T=444 R=2472 B=1253
-[17:35:28.187]   CaptureRegion returned
-[17:35:28.187]   MENU_CAPTURE_REGION completed
-[17:37:11.050] WM_COMMAND: id=1003
-[17:37:11.050]   MENU_CAPTURE_REGION: Creating overlay...
-[17:37:11.050]   Calling overlay.Show()...
-[17:37:12.452]   Overlay returned true, rect: L=1159 T=496 R=2234 B=1039
-[17:37:12.489]   CaptureRegion returned
-[17:37:12.489]   MENU_CAPTURE_REGION completed
-[17:39:44.522] === Application Starting ===
-[17:39:44.522] Another instance already running, exiting
-[17:39:49.901] WM_COMMAND: id=1003
-[17:39:49.901]   MENU_CAPTURE_REGION: Creating overlay...
-[17:39:49.901]   Calling overlay.Show()...
-[17:39:52.441]   Overlay returned true, rect: L=1051 T=548 R=2383 B=1219
-[17:39:52.502]   CaptureRegion returned
-[17:39:52.502]   MENU_CAPTURE_REGION completed
-[17:41:08.755] === Application Starting ===
-[17:41:08.759] WM_CREATE: hwnd=000000000034056c
-[17:41:08.775]   Initialization complete
-[17:41:08.776] Main window created: hwnd=000000000034056c
-[17:41:08.776] Entering message loop...
-[17:42:35.280] === Application Starting ===
-[17:42:35.283] WM_CREATE: hwnd=000000000035056c
-[17:42:35.301]   Initialization complete
-[17:42:35.301] Main window created: hwnd=000000000035056c
-[17:42:35.301] Entering message loop...
-[17:43:15.345] === Application Starting ===
-[17:43:15.348] WM_CREATE: hwnd=000000000036056c
-[17:43:15.366]   Initialization complete
-[17:43:15.366] Main window created: hwnd=000000000036056c
-[17:43:15.366] Entering message loop...
-[17:43:32.033] WM_COMMAND: id=1003
-[17:43:32.033]   MENU_CAPTURE_REGION: Creating overlay...
-[17:43:32.033]   Calling overlay.Show()...
-[17:43:38.317]   Overlay returned true, rect: L=1265 T=537 R=2443 B=1197
-[17:43:38.362]   CaptureRegion returned
-[17:43:38.362]   MENU_CAPTURE_REGION completed
-[17:43:45.179] WM_COMMAND: id=1003
-[17:43:45.179]   MENU_CAPTURE_REGION: Creating overlay...
-[17:43:45.179]   Calling overlay.Show()...
-[17:43:49.598]   Overlay returned true, rect: L=0 T=0 R=79 B=2076
-[17:43:49.646]   CaptureRegion returned
-[17:43:49.647]   MENU_CAPTURE_REGION completed
-[17:44:28.137] WM_COMMAND: id=1001
-[17:48:34.951] === Application Starting ===
-[17:48:34.955] WM_CREATE: hwnd=00000000000d0622
-[17:48:34.973]   Initialization complete
-[17:48:34.973] Main window created: hwnd=00000000000d0622
-[17:48:34.974] Entering message loop...
-[17:48:57.066] WM_COMMAND: id=1003
-[17:48:57.066]   MENU_CAPTURE_REGION: Creating overlay...
-[17:48:57.066]   Calling overlay.Show()...
-[17:48:58.853]   Overlay returned true, rect: L=1141 T=524 R=2017 B=1027
-[17:48:58.878]   CaptureRegion returned
-[17:48:58.879]   MENU_CAPTURE_REGION completed
-[17:49:03.699] WM_COMMAND: id=1003
-[17:49:03.699]   MENU_CAPTURE_REGION: Creating overlay...
-[17:49:03.700]   Calling overlay.Show()...
-[17:49:05.318]   Overlay returned true, rect: L=1178 T=569 R=2118 B=1172
-[17:49:05.344]   CaptureRegion returned
-[17:49:05.344]   MENU_CAPTURE_REGION completed
-[17:52:12.146] === Application Starting ===
-[17:52:12.149] WM_CREATE: hwnd=00000000000d0668
-[17:52:12.166]   Initialization complete
-[17:52:12.167] Main window created: hwnd=00000000000d0668
-[17:52:12.167] Entering message loop...
-[17:52:33.213] WM_COMMAND: id=1003
-[17:52:33.214]   MENU_CAPTURE_REGION: Creating overlay...
-[17:52:33.214]   Calling overlay.Show()...
-[17:52:40.250]   Overlay returned true, rect: L=1241 T=396 R=2722 B=1305
-[17:52:40.281]   CaptureRegion returned
-[17:52:40.281]   MENU_CAPTURE_REGION completed
-[17:53:22.057] === Application Starting ===
-[17:53:22.061] WM_CREATE: hwnd=00000000002b067c
-[17:53:22.082]   Initialization complete
-[17:53:22.083] Main window created: hwnd=00000000002b067c
-[17:53:22.083] Entering message loop...
-[18:03:06.772] === Application Starting ===
-[18:03:06.776] WM_CREATE: hwnd=00000000002c067c
-[18:03:06.793]   Initialization complete
-[18:03:06.793] Main window created: hwnd=00000000002c067c
-[18:03:06.793] Entering message loop...
-[18:03:17.824] WM_COMMAND: id=1003
-[18:03:17.824]   MENU_CAPTURE_REGION: Creating overlay...
-[18:03:17.824]   Calling overlay.Show()...
-[18:03:19.242]   Overlay returned true, rect: L=1035 T=626 R=2127 B=1165
-[18:03:19.267]   CaptureRegion returned
-[18:03:19.267]   MENU_CAPTURE_REGION completed
-[18:03:38.234] WM_COMMAND: id=1005
-[18:03:38.234]   MENU_EXIT: Posting quit message
-[18:03:38.235] === Message loop exited, wParam=0 ===
-[18:03:38.235] === Application Exiting ===
-
-[18:05:12.898] === Application Starting ===
-[18:05:12.901] WM_CREATE: hwnd=00000000001e03e4
-[18:05:12.918]   Initialization complete
-[18:05:12.919] Main window created: hwnd=00000000001e03e4
-[18:05:12.919] Entering message loop...
-[18:05:34.080] WM_COMMAND: id=1001
-[18:05:42.602] WM_COMMAND: id=1001
-[18:05:46.691] WM_COMMAND: id=1001
-[18:05:54.955] WM_COMMAND: id=1001
-[18:05:59.173] WM_COMMAND: id=1002
-[18:06:01.373] WM_COMMAND: id=1001
-[18:06:03.932] WM_COMMAND: id=1003
-[18:06:03.932]   MENU_CAPTURE_REGION: Creating overlay...
-[18:06:03.933]   Calling overlay.Show()...
-[18:06:05.376]   Overlay returned true, rect: L=880 T=583 R=1702 B=1136
-[18:06:05.415]   CaptureRegion returned
-[18:06:05.415]   MENU_CAPTURE_REGION completed
-[18:08:23.230] === Application Starting ===
-[18:08:23.234] WM_CREATE: hwnd=00000000001f03e4
-[18:08:23.251]   Initialization complete
-[18:08:23.251] Main window created: hwnd=00000000001f03e4
-[18:08:23.251] Entering message loop...
-[18:11:07.932] WM_COMMAND: id=1003
-[18:11:07.932]   MENU_CAPTURE_REGION: Creating overlay...
-[18:11:07.932]   Calling overlay.Show()...
-[18:11:13.822]   Overlay returned true, rect: L=1057 T=555 R=2303 B=1234
-[18:11:13.875]   CaptureRegion returned
-[18:11:13.875]   MENU_CAPTURE_REGION completed
-[18:11:18.116] WM_COMMAND: id=1003
-[18:11:18.116]   MENU_CAPTURE_REGION: Creating overlay...
-[18:11:18.117]   Calling overlay.Show()...
-[18:11:24.321]   Overlay returned true, rect: L=0 T=0 R=76 B=2074
-[18:11:24.356]   CaptureRegion returned
-[18:11:24.356]   MENU_CAPTURE_REGION completed
-[18:11:28.494] WM_COMMAND: id=1001
-[18:11:31.390] WM_COMMAND: id=1003
-[18:11:31.390]   MENU_CAPTURE_REGION: Creating overlay...
-[18:11:31.391]   Calling overlay.Show()...
-[18:11:40.578]   Overlay returned true, rect: L=624 T=363 R=1772 B=644
-[18:11:40.609]   CaptureRegion returned
-[18:11:40.610]   MENU_CAPTURE_REGION completed
+[18:27:06.849] === Application Starting ===
+[18:27:06.852] WM_CREATE: hwnd=0000000000090336
+[18:27:06.871]   Initialization complete
+[18:27:06.871] Main window created: hwnd=0000000000090336
+[18:27:06.871] Entering message loop...
+[18:27:35.841] WM_COMMAND: id=1003
+[18:27:35.841]   MENU_CAPTURE_REGION: Creating overlay...
+[18:27:35.841]   Calling overlay.Show()...
+[18:27:43.156]   Overlay returned true, rect: L=1081 T=414 R=1593 B=1258
+[18:27:43.203]   CaptureRegion returned
+[18:27:43.203]   MENU_CAPTURE_REGION completed
+[18:28:31.695] WM_COMMAND: id=1003
+[18:28:31.695]   MENU_CAPTURE_REGION: Creating overlay...
+[18:28:31.695]   Calling overlay.Show()...
+[18:28:42.964]   Overlay returned true, rect: L=1010 T=565 R=1803 B=1171
+[18:28:43.003]   CaptureRegion returned
+[18:28:43.003]   MENU_CAPTURE_REGION completed
+[18:29:21.242] === Application Starting ===
+[18:29:21.249] WM_CREATE: hwnd=00000000000a0336
+[18:29:21.270]   Initialization complete
+[18:29:21.270] Main window created: hwnd=00000000000a0336
+[18:29:21.270] Entering message loop...
+[18:30:34.024] WM_COMMAND: id=1003
+[18:30:34.024]   MENU_CAPTURE_REGION: Creating overlay...
+[18:30:34.024]   Calling overlay.Show()...
+[18:30:38.875]   Overlay returned true, rect: L=893 T=639 R=1827 B=1151
+[18:30:38.918]   CaptureRegion returned
+[18:30:38.918]   MENU_CAPTURE_REGION completed
+[18:31:50.203] === Application Starting ===
+[18:31:50.208] WM_CREATE: hwnd=00000000000b0336
+[18:31:50.224]   Initialization complete
+[18:31:50.224] Main window created: hwnd=00000000000b0336
+[18:31:50.225] Entering message loop...
+[18:32:12.852] WM_COMMAND: id=1003
+[18:32:12.852]   MENU_CAPTURE_REGION: Creating overlay...
+[18:32:12.853]   Calling overlay.Show()...
+[18:32:16.225]   Overlay returned true, rect: L=1003 T=458 R=2359 B=1316
+[18:32:16.275]   CaptureRegion returned
+[18:32:16.275]   MENU_CAPTURE_REGION completed
+[18:32:26.822] WM_COMMAND: id=1003
+[18:32:26.822]   MENU_CAPTURE_REGION: Creating overlay...
+[18:32:26.822]   Calling overlay.Show()...
+[18:32:32.721]   Overlay returned true, rect: L=595 T=193 R=2083 B=1234
+[18:32:32.790]   CaptureRegion returned
+[18:32:32.790]   MENU_CAPTURE_REGION completed
+[18:33:43.074] === Application Starting ===
+[18:33:43.078] WM_CREATE: hwnd=00000000000c0336
+[18:33:43.094]   Initialization complete
+[18:33:43.094] Main window created: hwnd=00000000000c0336
+[18:33:43.095] Entering message loop...
+[18:34:09.650] WM_COMMAND: id=1003
+[18:34:09.651]   MENU_CAPTURE_REGION: Creating overlay...
+[18:34:09.651]   Calling overlay.Show()...
+[18:34:22.703]   Overlay returned true, rect: L=704 T=382 R=1119 B=1302
+[18:34:22.745]   CaptureRegion returned
+[18:34:22.745]   MENU_CAPTURE_REGION completed
+[18:34:33.453] WM_COMMAND: id=1003
+[18:34:33.453]   MENU_CAPTURE_REGION: Creating overlay...
+[18:34:33.454]   Calling overlay.Show()...
+[18:34:47.922]   Overlay returned true, rect: L=969 T=292 R=1775 B=1079
+[18:34:47.952]   CaptureRegion returned
+[18:34:47.952]   MENU_CAPTURE_REGION completed
+[18:36:14.796] === Application Starting ===
+[18:36:14.800] WM_CREATE: hwnd=00000000000d0336
+[18:36:14.818]   Initialization complete
+[18:36:14.818] Main window created: hwnd=00000000000d0336
+[18:36:14.818] Entering message loop...
+[18:36:36.869] WM_COMMAND: id=1003
+[18:36:36.869]   MENU_CAPTURE_REGION: Creating overlay...
+[18:36:36.870]   Calling overlay.Show()...
+[18:36:42.745]   Overlay returned true, rect: L=786 T=320 R=1688 B=1027
+[18:36:42.801]   CaptureRegion returned
+[18:36:42.801]   MENU_CAPTURE_REGION completed
+[18:36:51.855] WM_COMMAND: id=1003
+[18:36:51.855]   MENU_CAPTURE_REGION: Creating overlay...
+[18:36:51.855]   Calling overlay.Show()...
+[18:36:59.347]   Overlay returned true, rect: L=857 T=420 R=1795 B=1107
+[18:36:59.391]   CaptureRegion returned
+[18:36:59.392]   MENU_CAPTURE_REGION completed
+[18:39:11.885] === Application Starting ===
+[18:39:11.889] WM_CREATE: hwnd=00000000000e0336
+[18:39:11.905]   Initialization complete
+[18:39:11.905] Main window created: hwnd=00000000000e0336
+[18:39:11.906] Entering message loop...
+[18:39:29.683] WM_COMMAND: id=1003
+[18:39:29.683]   MENU_CAPTURE_REGION: Creating overlay...
+[18:39:29.683]   Calling overlay.Show()...
+[18:39:37.959]   Overlay returned true, rect: L=1224 T=473 R=2552 B=1239
+[18:39:38.026]   CaptureRegion returned
+[18:39:38.026]   MENU_CAPTURE_REGION completed
+[18:39:56.870] WM_COMMAND: id=1003
+[18:39:56.870]   MENU_CAPTURE_REGION: Creating overlay...
+[18:39:56.871]   Calling overlay.Show()...
+[18:40:02.562]   Overlay returned true, rect: L=1261 T=442 R=1627 B=998
+[18:40:02.594]   CaptureRegion returned
+[18:40:02.595]   MENU_CAPTURE_REGION completed
+[18:40:06.800] WM_COMMAND: id=1003
+[18:40:06.800]   MENU_CAPTURE_REGION: Creating overlay...
+[18:40:06.801]   Calling overlay.Show()...
+[18:40:27.301]   Overlay returned true, rect: L=1212 T=473 R=1991 B=963
+[18:40:27.343]   CaptureRegion returned
+[18:40:27.343]   MENU_CAPTURE_REGION completed
+[18:40:34.243] WM_COMMAND: id=1003
+[18:40:34.244]   MENU_CAPTURE_REGION: Creating overlay...
+[18:40:34.244]   Calling overlay.Show()...
+[18:40:40.455]   Overlay returned true, rect: L=1320 T=337 R=2245 B=1406
+[18:40:40.513]   CaptureRegion returned
+[18:40:40.514]   MENU_CAPTURE_REGION completed

@@ -33,18 +33,23 @@ Overlay::Overlay()
     : m_hwnd(NULL)
     , m_isSelecting(false)
     , m_isComplete(false)
+    , m_hdcScreenshot(NULL)
+    , m_hbmScreenshot(NULL)
+    , m_hbmOldScreenshot(NULL)
     , m_hdcBackbuffer(NULL)
     , m_hbmBackbuffer(NULL)
     , m_hbmOldBackbuffer(NULL)
     , m_backbufferWidth(0)
     , m_backbufferHeight(0)
-    , m_hBrushBlack(NULL)
     , m_hPenBorder(NULL)
+    , m_hBrushDim(NULL)
     , m_lastPaintTime(0) {
     m_selectedRect = {};
     m_startPoint = {};
     m_currentPoint = {};
     m_windowOffset = {};
+    m_lastRect = {};
+    m_prevRect = {};
     DebugLog(L"Overlay constructor called");
 }
 
@@ -52,9 +57,9 @@ Overlay::~Overlay() {
     DebugLog(L"Overlay destructor called");
     
     // Cleanup cached GDI objects
-    if (m_hBrushBlack) {
-        DeleteObject(m_hBrushBlack);
-        m_hBrushBlack = NULL;
+    if (m_hBrushDim) {
+        DeleteObject(m_hBrushDim);
+        m_hBrushDim = NULL;
     }
     if (m_hPenBorder) {
         DeleteObject(m_hPenBorder);
@@ -70,6 +75,17 @@ Overlay::~Overlay() {
             DeleteObject(m_hbmBackbuffer);
         }
         DeleteDC(m_hdcBackbuffer);
+    }
+    
+    // Cleanup screenshot buffer
+    if (m_hdcScreenshot) {
+        if (m_hbmOldScreenshot) {
+            SelectObject(m_hdcScreenshot, m_hbmOldScreenshot);
+        }
+        if (m_hbmScreenshot) {
+            DeleteObject(m_hbmScreenshot);
+        }
+        DeleteDC(m_hdcScreenshot);
     }
     
     if (m_hwnd) {
@@ -168,10 +184,10 @@ bool Overlay::Show() {
     }
     DebugLog(L"  Window created: hwnd=%p", m_hwnd);
     
-    // Create persistent backbuffer (once)
-    HDC hdcScreen = GetDC(m_hwnd);
+    // Capture screenshot BEFORE showing overlay
+    HDC hdcScreen = GetDC(NULL);
     if (!hdcScreen) {
-        DebugLog(L"  ERROR: GetDC failed");
+        DebugLog(L"  ERROR: GetDC(NULL) failed");
         DestroyWindow(m_hwnd);
         m_hwnd = NULL;
         return false;
@@ -180,24 +196,47 @@ bool Overlay::Show() {
     m_backbufferWidth = width;
     m_backbufferHeight = height;
     
+    // Create screenshot buffer and capture current screen
+    m_hdcScreenshot = CreateCompatibleDC(hdcScreen);
+    m_hbmScreenshot = CreateCompatibleBitmap(hdcScreen, width, height);
+    m_hbmOldScreenshot = (HBITMAP)SelectObject(m_hdcScreenshot, m_hbmScreenshot);
+    
+    // Capture entire screen to screenshot buffer
+    DWORD captureStart = GetTickCount();
+    BitBlt(m_hdcScreenshot, 0, 0, width, height, hdcScreen, screenRect.left, screenRect.top, SRCCOPY | CAPTUREBLT);
+    DWORD captureTime = GetTickCount() - captureStart;
+    DebugLog(L"  Screenshot captured: %dx%d in %dms", width, height, captureTime);
+    
+    FILE* f = _wfopen(L"debug_overlay.txt", L"a");
+    if (f) {
+        fwprintf(f, L"\n=== NEW OVERLAY SESSION ===\n");
+        fwprintf(f, L"Screen size: %dx%d\n", width, height);
+        fwprintf(f, L"Screenshot capture time: %dms\n", captureTime);
+        fwprintf(f, L"Using: Direct rendering + Screenshot restore + Selective redraw\n");
+        fwprintf(f, L"Target FPS: 120 (8ms frame time)\n\n");
+        fclose(f);
+    }
+    
+    // Create drawing backbuffer
     m_hdcBackbuffer = CreateCompatibleDC(hdcScreen);
-    m_hbmBackbuffer = CreateCompatibleBitmap(hdcScreen, m_backbufferWidth, m_backbufferHeight);
+    m_hbmBackbuffer = CreateCompatibleBitmap(hdcScreen, width, height);
     m_hbmOldBackbuffer = (HBITMAP)SelectObject(m_hdcBackbuffer, m_hbmBackbuffer);
     
-    ReleaseDC(m_hwnd, hdcScreen);
-    DebugLog(L"  Backbuffer created: %dx%d", m_backbufferWidth, m_backbufferHeight);
+    ReleaseDC(NULL, hdcScreen);
+    DebugLog(L"  Backbuffer created: %dx%d", width, height);
     
     // Cache GDI objects
-    m_hBrushBlack = CreateSolidBrush(RGB(0, 0, 0));
     m_hPenBorder = CreatePen(PS_SOLID, 2, RGB(0, 120, 215));
+    m_hBrushDim = CreateSolidBrush(RGB(0, 0, 0));  // For dimming effect
     m_lastPaintTime = 0;
+    m_lastRect = {};
+    m_prevRect = {};
     
-    // Pre-fill backbuffer with black background using cached brush
-    RECT fullRect = { 0, 0, m_backbufferWidth, m_backbufferHeight };
-    FillRect(m_hdcBackbuffer, &fullRect, m_hBrushBlack);
+    // Initial draw: copy screenshot with dim overlay
+    BitBlt(m_hdcBackbuffer, 0, 0, width, height, m_hdcScreenshot, 0, 0, SRCCOPY);
     
     // Set transparency
-    SetLayeredWindowAttributes(m_hwnd, 0, 128, LWA_ALPHA);
+    SetLayeredWindowAttributes(m_hwnd, 0, 200, LWA_ALPHA);  // Slightly less transparent
     DebugLog(L"  Transparency set");
     
     ShowWindow(m_hwnd, SW_SHOW);
@@ -251,88 +290,217 @@ void Overlay::OnPaint(HWND hwnd) {
     PAINTSTRUCT ps;
     HDC hdc = BeginPaint(hwnd, &ps);
     
-    if (!m_hdcBackbuffer || !m_hBrushBlack) {
+    DWORD paintStartTime = GetTickCount();
+    
+    if (!m_hdcBackbuffer || !m_hdcScreenshot) {
         EndPaint(hwnd, &ps);
         return;
     }
     
-    // Clear entire backbuffer with semi-transparent black (faster than selective clear)
-    RECT fullRect = { 0, 0, m_backbufferWidth, m_backbufferHeight };
-    FillRect(m_hdcBackbuffer, &fullRect, m_hBrushBlack);
+    FILE* f = _wfopen(L"debug_overlay.txt", L"a");
+    if (f) {
+        fwprintf(f, L"[OnPaint] Called - InvalidRect: L=%d T=%d R=%d B=%d\n",
+            ps.rcPaint.left, ps.rcPaint.top, ps.rcPaint.right, ps.rcPaint.bottom);
+        fclose(f);
+    }
     
-    // Draw selection rectangle if selecting
+    // Restore old rect area from screenshot (erase old border)
+    if (m_lastRect.right > 0) {
+        RECT restoreRect = m_lastRect;
+        InflateRect(&restoreRect, 3, 30);  // Include border width and text
+        BitBlt(m_hdcBackbuffer, 
+               restoreRect.left, restoreRect.top,
+               restoreRect.right - restoreRect.left, 
+               restoreRect.bottom - restoreRect.top,
+               m_hdcScreenshot, 
+               restoreRect.left, restoreRect.top, 
+               SRCCOPY);
+    }
+    
+    // Draw new selection rectangle
     if (m_isSelecting) {
         int left = min(m_startPoint.x, m_currentPoint.x);
         int top = min(m_startPoint.y, m_currentPoint.y);
         int right = max(m_startPoint.x, m_currentPoint.x);
         int bottom = max(m_startPoint.y, m_currentPoint.y);
         
-        // Draw border using fast line drawing (smoother than Rectangle())
-        HPEN hOldPen = (HPEN)SelectObject(m_hdcBackbuffer, m_hPenBorder);
+        m_lastRect = { left, top, right, bottom };
         
-        // Top line
-        MoveToEx(m_hdcBackbuffer, left, top, NULL);
-        LineTo(m_hdcBackbuffer, right, top);
-        // Right line
-        LineTo(m_hdcBackbuffer, right, bottom);
-        // Bottom line
-        LineTo(m_hdcBackbuffer, left, bottom);
-        // Left line
-        LineTo(m_hdcBackbuffer, left, top);
+        // Draw border
+        HPEN hOldPen = (HPEN)SelectObject(m_hdcBackbuffer, m_hPenBorder);
+        HBRUSH hOldBrush = (HBRUSH)SelectObject(m_hdcBackbuffer, GetStockObject(NULL_BRUSH));
+        
+        Rectangle(m_hdcBackbuffer, left, top, right, bottom);
         
         SelectObject(m_hdcBackbuffer, hOldPen);
+        SelectObject(m_hdcBackbuffer, hOldBrush);
         
-        // Draw size info (only if there's space)
+        // Draw size info
         if (top > 30) {
             wchar_t info[64];
             swprintf_s(info, L"%dx%d", right - left, bottom - top);
             
-            // Draw text with transparent background (no need to clear, already black)
-            SetBkMode(m_hdcBackbuffer, TRANSPARENT);
+            SetBkMode(m_hdcBackbuffer, OPAQUE);
+            SetBkColor(m_hdcBackbuffer, RGB(0, 0, 0));
             SetTextColor(m_hdcBackbuffer, RGB(255, 255, 0));
             TextOutW(m_hdcBackbuffer, left, top - 20, info, (int)wcslen(info));
         }
     }
     
-    // Fast BitBlt from backbuffer to screen
-    BitBlt(hdc, 0, 0, m_backbufferWidth, m_backbufferHeight, m_hdcBackbuffer, 0, 0, SRCCOPY);
+    // BitBlt only the invalidated region (partial redraw)
+    BitBlt(hdc, 
+           ps.rcPaint.left, ps.rcPaint.top,
+           ps.rcPaint.right - ps.rcPaint.left, 
+           ps.rcPaint.bottom - ps.rcPaint.top,
+           m_hdcBackbuffer, 
+           ps.rcPaint.left, ps.rcPaint.top,
+           SRCCOPY);
+    
+    DWORD paintTime = GetTickCount() - paintStartTime;
+    
+    f = _wfopen(L"debug_overlay.txt", L"a");
+    if (f) {
+        fwprintf(f, L"[OnPaint] Completed in %dms\n", paintTime);
+        fclose(f);
+    }
     
     EndPaint(hwnd, &ps);
 }
 
 void Overlay::OnMouseMove(int x, int y) {
+    static int mouseMoveCount = 0;
+    mouseMoveCount++;
+    
     if (!m_isSelecting) return;
     
-    // Frame rate limiting
+    // Ultra-fast frame limiting (8ms = 120fps)
     DWORD now = GetTickCount();
-    if (now - m_lastPaintTime < 16) {
+    DWORD timeSinceLastFrame = now - m_lastPaintTime;
+    if (timeSinceLastFrame < 8) {
+        // Log throttled frames
+        if (mouseMoveCount % 50 == 0) {
+            FILE* f = _wfopen(L"debug_overlay.txt", L"a");
+            if (f) {
+                fwprintf(f, L"[OnMouseMove] Throttled - only %dms since last frame\n", timeSinceLastFrame);
+                fclose(f);
+            }
+        }
         return;
     }
+    
+    DWORD startTime = now;
     m_lastPaintTime = now;
     
-    // Calculate old rectangle for invalidation
-    RECT oldRect = {
-        min(m_startPoint.x, m_currentPoint.x),
-        min(m_startPoint.y, m_currentPoint.y),
-        max(m_startPoint.x, m_currentPoint.x),
-        max(m_startPoint.y, m_currentPoint.y)
-    };
+    // Log that we're doing direct rendering
+    if (mouseMoveCount % 10 == 0) {
+        FILE* f = _wfopen(L"debug_overlay.txt", L"a");
+        if (f) {
+            fwprintf(f, L"[OnMouseMove] DIRECT RENDER at (%d,%d) - count=%d\n", x, y, mouseMoveCount);
+            fclose(f);
+        }
+    }
     
+    // Direct rendering (bypass WM_PAINT message queue for instant response)
+    if (!m_hdcBackbuffer || !m_hdcScreenshot) return;
+    
+    // Save previous rect before updating
+    m_prevRect = m_lastRect;
+    
+    // Update current point
     m_currentPoint.x = x;
     m_currentPoint.y = y;
     
-    RECT newRect = {
-        min(m_startPoint.x, m_currentPoint.x),
-        min(m_startPoint.y, m_currentPoint.y),
-        max(m_startPoint.x, m_currentPoint.x),
-        max(m_startPoint.y, m_currentPoint.y)
-    };
+    // Calculate new selection rect
+    int left = min(m_startPoint.x, m_currentPoint.x);
+    int top = min(m_startPoint.y, m_currentPoint.y);
+    int right = max(m_startPoint.x, m_currentPoint.x);
+    int bottom = max(m_startPoint.y, m_currentPoint.y);
     
-    // Merge rectangles into single invalidate call
-    RECT unionRect;
-    UnionRect(&unionRect, &oldRect, &newRect);
-    InflateRect(&unionRect, 5, 25);
-    InvalidateRect(m_hwnd, &unionRect, FALSE);
+    m_lastRect = { left, top, right, bottom };
+    
+    // Restore old rect from screenshot (erase old border)
+    if (m_prevRect.right > 0) {
+        RECT restoreRect = m_prevRect;
+        InflateRect(&restoreRect, 3, 30);
+        BitBlt(m_hdcBackbuffer, 
+               restoreRect.left, restoreRect.top,
+               restoreRect.right - restoreRect.left, 
+               restoreRect.bottom - restoreRect.top,
+               m_hdcScreenshot, 
+               restoreRect.left, restoreRect.top, 
+               SRCCOPY);
+    }
+    
+    // Draw border
+    HPEN hOldPen = (HPEN)SelectObject(m_hdcBackbuffer, m_hPenBorder);
+    HBRUSH hOldBrush = (HBRUSH)SelectObject(m_hdcBackbuffer, GetStockObject(NULL_BRUSH));
+    Rectangle(m_hdcBackbuffer, left, top, right, bottom);
+    SelectObject(m_hdcBackbuffer, hOldPen);
+    SelectObject(m_hdcBackbuffer, hOldBrush);
+    
+    // Draw size info
+    if (top > 30) {
+        wchar_t info[64];
+        swprintf_s(info, L"%dx%d", right - left, bottom - top);
+        SetBkMode(m_hdcBackbuffer, OPAQUE);
+        SetBkColor(m_hdcBackbuffer, RGB(0, 0, 0));
+        SetTextColor(m_hdcBackbuffer, RGB(255, 255, 0));
+        TextOutW(m_hdcBackbuffer, left, top - 20, info, (int)wcslen(info));
+    }
+    
+    // Direct BitBlt to screen (no message queue, instant update)
+    HDC hdcWindow = GetDC(m_hwnd);
+    if (hdcWindow) {
+        // Calculate update region (old + new rect)
+        RECT updateRect = m_lastRect;
+        InflateRect(&updateRect, 3, 30);
+        
+        // Union with previous rect area to ensure old border is cleared
+        if (m_prevRect.right > 0) {
+            RECT oldRestoreRect = m_prevRect;
+            InflateRect(&oldRestoreRect, 3, 30);
+            UnionRect(&updateRect, &updateRect, &oldRestoreRect);
+        }
+        
+        int updateWidth = updateRect.right - updateRect.left;
+        int updateHeight = updateRect.bottom - updateRect.top;
+        
+        // BitBlt only the changed region
+        BitBlt(hdcWindow, 
+               updateRect.left, updateRect.top,
+               updateWidth, updateHeight,
+               m_hdcBackbuffer, 
+               updateRect.left, updateRect.top,
+               SRCCOPY);
+        
+        ReleaseDC(m_hwnd, hdcWindow);
+        
+        // Calculate total render time
+        DWORD renderTime = GetTickCount() - startTime;
+        
+        // Log performance metrics (every 10 frames to avoid spam)
+        static int frameCount = 0;
+        static DWORD totalRenderTime = 0;
+        static DWORD minRenderTime = 999999;
+        static DWORD maxRenderTime = 0;
+        
+        frameCount++;
+        totalRenderTime += renderTime;
+        if (renderTime < minRenderTime) minRenderTime = renderTime;
+        if (renderTime > maxRenderTime) maxRenderTime = renderTime;
+        
+        if (frameCount % 10 == 0) {
+            DWORD avgRenderTime = totalRenderTime / frameCount;
+            int fps = (renderTime > 0) ? (1000 / renderTime) : 999;
+            
+            FILE* f = _wfopen(L"debug_overlay.txt", L"a");
+            if (f) {
+                fwprintf(f, L"[PERF] Frame %d: Render=%dms (avg=%dms, min=%dms, max=%dms) FPS=%d UpdateArea=%dx%d TimeSinceLastFrame=%dms\n",
+                    frameCount, renderTime, avgRenderTime, minRenderTime, maxRenderTime, fps, updateWidth, updateHeight, timeSinceLastFrame);
+                fclose(f);
+            }
+        }
+    }
 }
 
 void Overlay::OnLButtonDown(int x, int y) {
